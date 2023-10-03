@@ -1,0 +1,149 @@
+{
+  "version": "34.0.0",
+  "artifacts": {
+    "dev-go2ai-site-Site.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "dev-go2ai-site-Site.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "dev-go2ai-site-Site": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://523595891180/us-east-1",
+      "properties": {
+        "templateFile": "dev-go2ai-site-Site.template.json",
+        "tags": {
+          "sst:app": "go2ai-site",
+          "sst:stage": "dev"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-deploy-role-523595891180-us-east-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-cfn-exec-role-523595891180-us-east-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-523595891180-us-east-1/43e842475ea98c8a3d621f351bee66c826c997db7e6734fe15ca8fee82010c57.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "dev-go2ai-site-Site.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-lookup-role-523595891180-us-east-1",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "dev-go2ai-site-Site.assets"
+      ],
+      "metadata": {
+        "/dev-go2ai-site-Site": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "sst:app",
+                "Value": "go2ai-site"
+              },
+              {
+                "Key": "sst:stage",
+                "Value": "dev"
+              }
+            ]
+          }
+        ],
+        "/dev-go2ai-site-Site/CustomResourceHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceHandlerServiceRole41AEC181"
+          }
+        ],
+        "/dev-go2ai-site-Site/CustomResourceHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceHandlerE8FB56BA"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/ServerFunctionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionRole1F8F4FAC"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/ServerFunction/AssetReplacerPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionAssetReplacerPolicy304BF125"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/ServerFunction/AssetReplacer/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionAssetReplacer9A11D516"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/ServerFunction/ServerFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunction6DFA6F1B"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/ServerFunction/ServerFunction/LogRetention/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionLogRetention7123678D"
+          }
+        ],
+        "/dev-go2ai-site-Site/site/Parameter_url/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteParameterurl3D1716BC"
+          }
+        ],
+        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB"
+          }
+        ],
+        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB"
+          }
+        ],
+        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A"
+          }
+        ],
+        "/dev-go2ai-site-Site/SSTStackOutputSSTMetadata": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SSTMetadata"
+          }
+        ],
+        "/dev-go2ai-site-Site/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/dev-go2ai-site-Site/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "dev-go2ai-site-Site"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

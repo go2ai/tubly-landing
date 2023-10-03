@@ -1,0 +1,21 @@
+2023-10-02T23:34:36.154Z  +1296ms [debug] Config loaded {"version":"2.26.5","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"go2ai-site","region":"us-east-1","stage":"dev","profile":"go2ai-dev","ssmPrefix":"/sst/go2ai-site/dev/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":222,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1696289674873.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":150}},"bytes":332}}},"paths":{"config":"/home/rev-ocelot/Workspace/js/go2ai-site/sst.config.ts","root":"/home/rev-ocelot/Workspace/js/go2ai-site","out":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst","artifacts":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst/artifacts"}}
+2023-10-02T23:34:36.723Z   +569ms [debug] Using AWS profile go2ai-dev
+2023-10-02T23:34:36.753Z    +30ms [debug] Created AWS client IoTClient
+2023-10-02T23:34:36.753Z     +0ms [debug] Getting IoT endpoint
+2023-10-02T23:34:38.444Z  +1691ms [debug] Using IoT endpoint: a3718e15mkay1e-ats.iot.us-east-1.amazonaws.com
+2023-10-02T23:34:38.445Z     +1ms [debug] Initializing bootstrap context
+2023-10-02T23:34:38.445Z     +0ms [debug] Created AWS client CloudFormationClient
+2023-10-02T23:34:39.282Z   +837ms [debug] Loaded bootstrap status
+2023-10-02T23:34:39.282Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-oq69ramo2kc1"}
+2023-10-02T23:34:39.283Z     +1ms [debug] Created AWS client S3Client
+2023-10-02T23:34:39.318Z    +35ms [debug] Synthesizing stacks...
+2023-10-02T23:34:39.326Z     +8ms [debug] Created AWS client STSClient
+2023-10-02T23:34:40.005Z   +679ms [debug] Using identity Account: 523595891180 User: AROAXT2F7IHWNYVLF2GIJ:daniel-campos
+2023-10-02T23:34:40.007Z     +2ms [debug] Generating types in /home/rev-ocelot/Workspace/js/go2ai-site/.sst/types
+2023-10-02T23:34:40.133Z   +126ms [debug] Running 1 deferred tasks with concurrency: 15
+2023-10-02T23:34:40.294Z   +161ms [debug] 
+2023-10-02T23:34:40.294Z     +0ms [debug] Loading v2 AWS SDK
+2023-10-02T23:34:40.294Z     +0ms [debug] Finished synthesizing
+2023-10-02T23:34:40.306Z    +12ms [debug] IoT connected
+2023-10-02T23:34:41.062Z   +756ms [debug] Fetching metadata for stack dev-go2ai-site-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"1K042J13ZF2ZDGJ4","extendedRequestId":"VES2xCtowRQX9TCYvlzRIpWJRxwKuzBv3C7faNV4tP8eiNytNo+w0wYm4s+1cO2h28bXYuVujyc=","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.go2ai-site/stage.dev/stack.dev-go2ai-site-Site.json","RequestId":"1K042J13ZF2ZDGJ4","HostId":"VES2xCtowRQX9TCYvlzRIpWJRxwKuzBv3C7faNV4tP8eiNytNo+w0wYm4s+1cO2h28bXYuVujyc=","message":"The specified key does not exist."}
+2023-10-02T23:34:41.064Z     +2ms [debug] Created AWS client SSMClient
