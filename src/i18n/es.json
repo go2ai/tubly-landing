@@ -1,24 +1,25 @@
 {
   "page": {
-    "home": {
-      "head1": "Login now!",
-      "head2": "Assimilate video content in seconds",
-      "head3": "Watch less, learn more. Summarized YouTube videos with the power of AI."
+    "header": {
+      "title": "Tubly: Tu asistente para resumir vídeos de YouTube",
+      "description": "Resume vídeos de YouTube con el poder de la IA. Escucha resúmenes en audio. Aprende más, en menos tiempo.",
+      "home": "Inicio",
+      "terms": "Términos de Uso"
     },
     "terms": {
       "title": "Términos de Uso",
       "welcome": "Bienvenido a nuestra aplicación. Al usar nuestra aplicación, aceptas estos términos. Por favor, léelos con cuidado.",
       "usageLimits": {
         "title": "1. Límites de Uso",
-        "description": "Los usuarios gratuitos pueden resumir hasta tres videos de 4 minutos por día. Los suscriptores ($10/mes) pueden resumir videos más largos (hasta 20 minutos) y recibir resúmenes de audio."
+        "description": "Los usuarios gratuitos pueden resumir hasta tres videos de 4 minutos por día. Los suscriptores (MXN$10/mes) pueden resumir videos más largos (hasta 20 minutos) y recibir resúmenes en audio."
       },
       "payments": {
         "title": "2. Pagos",
-        "description": "Los pagos se procesan de forma segura a través de tarjeta de crédito. La tarifa de suscripción no es reembolsable."
+        "description": "Los pagos se procesan de forma segura a través de tarjeta de crédito. La cuota de suscripción no es reembolsable."
       },
       "intellectualProperty": {
         "title": "3. Propiedad Intelectual",
-        "description": "La funcionalidad de la aplicación puede usar enlaces de YouTube, pero no reclamamos ninguna propiedad sobre el contenido encontrado en esos enlaces."
+        "description": "La funcionalidad de la aplicación puede usar enlaces de YouTube, pero no reclamamos ninguna propiedad sobre el contenido encontrado en estos enlaces."
       },
       "changes": {
         "title": "4. Cambios",
@@ -46,41 +47,54 @@
       },
       "customerSupport": {
         "title": "10. Soporte al Cliente",
-        "description": "Para cualquier problema o consulta, contacta a nuestro soporte al cliente en support@yourapp.com."
+        "description": "Para cualquier problema o pregunta, contacta a nuestro soporte al cliente en support@yourapp.com."
       },
       "termination": {
         "title": "11. Terminación",
-        "description": "Podemos terminar o suspender tu cuenta de inmediato, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo sin limitación si violas los Términos."
+        "description": "Podemos terminar o suspender tu cuenta inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo, sin limitación, si violas los Términos."
       }
     },
     "components": {
       "hero": {
-        "title": "To get started, please enter a YouTube video URL below:",
-        "placeholder": "Paste YouTube URL here...",
-        "warning": "Make sure to enter a valid YouTube video URL.",
-        "button": "Add Video"
+        "title": "Resume Contenidos de YouTube con Facilidad con Resúmenes Impulsados por IA y Reproducción de Audio en Android",
+        "paragraph_1": "Presentamos Tubly, tu aplicación Android definitiva para resumen inteligente de videos e insights auditivos. Impulsado por algoritmos de IA de vanguardia, Tubly no solo transforma largos videos de YouTube en visiones claras y amigables para el lector, sino que también te permite escuchar estos resúmenes, gracias a su característica de audio innovadora. Ahora, ya sea en el gimnasio o en el trayecto, puedes seguir tu contenido favorito sin perderte de nada.",
+        "paragraph_2": "Envuelve tus sentidos mientras escuchas resúmenes que se adaptan a tu estilo de aprendizaje y ritmo de vida.",
+        "paragraph_3": "Eleva tu interacción con los videos a niveles incomparables con Tubly. Sumérgete en una fuente de conocimiento, aumenta tu productividad y recoge valiosos insights, ya sea visual o auditivamente, con absoluta facilidad. ¡Instala Tubly hoy para descubrir un enfoque multifacético de la inteligencia de video simplificada!",
+        "phone_title_1": "Desbloquea",
+        "phone_title_2": "Resúmenes",
+        "phone_title_3": "de YouTube",
+        "phone_description": "Mira menos, aprende más. ¡Videos de YouTube resumidos con el poder de la IA!",
+        "phone_button_1": "Comienza Ahora",
+        "phone_button_2": "Saber más"
       },
       "cta": {
-        "title": "Settings",
-        "language": "Language"
+        "title": "DESCARGA AHORA",
+        "description": "¡Prueba ahora, gratis!",
+        "button": "DESCARGA AHORA"
       },
-      "pricing": {
-        "options_free": {
-          "success": {
-            "success_ingestion": "Your video was ingested successfully!"
-          },
-          "error": {
-            "failes_add": "Failed to add URL."
-          }
+      "features": {
+        "title": "Todas las características que necesitas",
+        "description": "Experimentarás el consumo de videos de una manera eficiente como nunca antes. Sumérgete en el mundo del conocimiento, aumenta la productividad y extrae valiosos insights con facilidad.",
+        "feature_time": {
+          "title": "⏰ Marcas de Tiempo",
+          "description": "¡Tubly hace fácil ver resúmenes de videos! Cada resumen viene con marcas de tiempo clicables, así puedes ir directamente a las partes importantes del video. ¡No más buscar en videos largos los momentos clave! Con Tubly, todo está a solo un clic de distancia."
         },
-        "options_paid": {
-          "success": {
-            "success_ingestion": "Your video was ingested successfully!"
-          },
-          "error": {
-            "failes_add": "Failed to add URL."
-          }
+        "feature_openai": {
+          "title": "🧠 Impulsado por ChatGPT & OpenAI",
+          "description": "Tubly utiliza ChatGPT y OpenAI para hacer resúmenes de videos más inteligentes. Con una excelente comprensión del lenguaje, Summarify convierte largos videos de YouTube en resúmenes cortos y claros. Nuestra aplicación utiliza la tecnología avanzada de OpenAI para brindarte los mejores resúmenes."
+        },
+        "feature_history": {
+          "title": "📜 Tu Historial en Tubly: ¡Revive cada Insight!",
+          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento! 🔄🎥"
+        },
+        "feature_audio": {
+          "title": "🎧 Resúmenes de Audio de Tubly: ¡Escucha los Aspectos más Destacados!",
+          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido! 🚀🔊"
         }
+      },
+      "footer": {
+        "home": "Inicio",
+        "terms": "Términos de Uso"
       }
     }
   }

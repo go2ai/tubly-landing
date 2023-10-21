@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { SvgLogo } from 'components'
+	import { _ } from 'svelte-i18n'
 </script>
 
 <footer class="px-4 py-8 dark:bg-custom-gray dark:text-gray-400">
@@ -10,10 +11,14 @@
 			</div>
 			<ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
 				<li>
-					<a rel="prefetch" href="/">Home</a>
+					<a rel="prefetch" href="/">
+						{$_('page.components.footer.home')}
+					</a>
 				</li>
 				<li>
-					<a rel="prefetch" href="/terms-of-use">Terms of Use</a>
+					<a rel="prefetch" href="/terms-of-use">
+						{$_('page.components.footer.terms')}
+					</a>
 				</li>
 			</ul>
 		</div>

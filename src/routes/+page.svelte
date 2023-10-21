@@ -3,15 +3,21 @@
 	import { CTA, Hero, Testemonials, Features } from 'components'
 
 	onMount(() => {
+		const scrollMap = [
+			{ buttonId: 'scrollToCTA', targetId: 'CTA' },
+			{ buttonId: 'scrollToFeatures', targetId: 'Features' }
+		]
 
-		const button = document.getElementById('scrollToCTA')
-    const target = document.getElementById('CTA')
+		scrollMap.forEach(item => {
+			const button = document.getElementById(item.buttonId)
+			const target = document.getElementById(item.targetId)
 
-		if(button) {
-    	button.addEventListener('click', () => {
-				if (target) target.scrollIntoView({ behavior: 'smooth' })
-    	})
-		}
+			if(button && target) {
+				button.addEventListener('click', () => {
+					target.scrollIntoView({ behavior: 'smooth' })
+				})
+			}
+		})
 	})
 </script>
 
@@ -20,13 +26,16 @@
 
 <!-- <FAQ /> -->
 
-<Features />
-
-<Testemonials />
-
 <div id="CTA">
 	<CTA />
 </div>
+
+<div id="Features">
+	<Features />
+</div>
+
+<!-- <Testemonials /> -->
+
 
 
 <!-- <Pricing /> -->

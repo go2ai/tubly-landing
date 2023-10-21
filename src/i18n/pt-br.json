@@ -1,16 +1,17 @@
 {
   "page": {
-    "home": {
-      "head1": "Login now!",
-      "head2": "Assimilate video content in seconds",
-      "head3": "Watch less, learn more. Summarized YouTube videos with the power of AI."
+    "header": {
+      "title": "Tubly: Seu assistente de resumo de vídeos do YouTube",
+      "description": "Resuma vídeos do YouTube com o poder da IA. Ouça resumos em áudio. Aprenda mais, em menos tempo.",
+      "home": "Início",
+      "terms": "Termos de Uso"
     },
     "terms": {
       "title": "Termos de Uso",
       "welcome": "Bem-vindo ao nosso aplicativo. Ao usar nosso aplicativo, você concorda com estes termos. Por favor, leia-os com atenção.",
       "usageLimits": {
         "title": "1. Limites de Uso",
-        "description": "Usuários gratuitos podem resumir até três vídeos de 4 minutos por dia. Assinantes ($10/mês) podem resumir vídeos mais longos (até 20 minutos) e receber resumos em áudio."
+        "description": "Usuários gratuitos podem resumir até três vídeos de 4 minutos por dia. Assinantes (R$10/mês) podem resumir vídeos mais longos (até 20 minutos) e receber resumos em áudio."
       },
       "payments": {
         "title": "2. Pagamentos",
@@ -26,10 +27,10 @@
       },
       "contact": {
         "title": "5. Contato",
-        "description": "Se você tiver alguma dúvida, entre em contato conosco pelo e-mail support@yourapp.com."
+        "description": "Se você tiver alguma dúvida, entre em contato conosco em support@yourapp.com."
       },
       "dataHandlingAndPrivacy": {
-        "title": "6. Tratamento de Dados e Privacidade",
+        "title": "6. Manuseio de Dados e Privacidade",
         "description": "Sua privacidade é importante para nós. Por favor, revise nossa Política de Privacidade para entender nossas práticas."
       },
       "liabilityLimitation": {
@@ -37,50 +38,51 @@
         "description": "Na medida permitida por lei, não somos responsáveis por quaisquer perdas indiretas ou consequenciais."
       },
       "governingLawAndJurisdiction": {
-        "title": "8. Lei Regente e Jurisdição",
-        "description": "Estes termos são regidos pelas leis de [sua jurisdição]. As disputas serão resolvidas nos tribunais de [sua jurisdição]."
+        "title": "8. Lei Aplicável e Jurisdição",
+        "description": "Estes termos são regidos pelas leis de [sua jurisdição]. Disputas serão resolvidas nos tribunais de [sua jurisdição]."
       },
       "subscriptionCancellation": {
         "title": "9. Cancelamento da Assinatura",
-        "description": "Você pode cancelar sua assinatura a qualquer momento, mas nenhum reembolso será emitido por qualquer parte não utilizada do período de assinatura."
+        "description": "Você pode cancelar sua assinatura a qualquer momento, mas não serão emitidos reembolsos por qualquer parte não utilizada do período da assinatura."
       },
       "customerSupport": {
         "title": "10. Suporte ao Cliente",
-        "description": "Para quaisquer problemas ou dúvidas, entre em contato com nosso suporte ao cliente pelo e-mail support@yourapp.com."
+        "description": "Para quaisquer problemas ou dúvidas, entre em contato com nosso suporte ao cliente em support@yourapp.com."
       },
       "termination": {
-        "title": "11. Rescisão",
-        "description": "Podemos rescindir ou suspender sua conta imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo, sem limitação, se você violar os Termos."
+        "title": "11. Encerramento",
+        "description": "Podemos encerrar ou suspender sua conta imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo, sem limitação, se você violar os Termos."
       }
     },
     "components": {
       "hero": {
-        "title": "To get started, please enter a YouTube video URL below:",
-        "placeholder": "Paste YouTube URL here...",
-        "warning": "Make sure to enter a valid YouTube video URL.",
-        "button": "Add Video"
+        "title": "Resuma Conteúdos do YouTube com Facilidade com Resumos Orientados por IA e Reprodução de Áudio no Android",
+        "paragraph_1": "Apresentando o Tubly, seu aplicativo Android definitivo para resumo inteligente de vídeos e insights audíveis. Impulsionado por algoritmos de IA de ponta, o Tubly não apenas transforma extensos vídeos do YouTube em visões claras e amigáveis para o leitor, mas também permite que você ouça esses resumos, graças ao seu recurso de áudio inovador. Agora, seja na academia ou no trajeto do trabalho, você pode acompanhar seu conteúdo favorito sem perder nada.",
+        "paragraph_2": "Foque seus sentidos enquanto você ouve resumos que se alinham ao seu estilo de aprendizado e ritmo de vida.",
+        "paragraph_3": "Eleve sua interação com vídeos a alturas incomparáveis com o Tubly. Mergulhe em uma fonte de conhecimento, aumente sua produtividade e colha insights valiosos - visualmente ou auditivamente - com facilidade absoluta. Instale o Tubly hoje para desbloquear uma abordagem multifacetada para a inteligência de vídeo simplificada!",
+        "phone_title_1": "Desbloqueie",
+        "phone_title_2": "Resumos",
+        "phone_title_3": "no YouTube",
+        "phone_description": "Assista menos, aprenda mais. Vídeos do YouTube resumidos com o poder da IA!",
+        "phone_button_1": "Comece Agora",
+        "phone_button_2": "Saiba mais"
       },
       "cta": {
-        "title": "Settings",
-        "language": "Language"
+        "title": "BAIXE AGORA",
+        "description": "Teste agora, de graça!",
+        "button": "BAIXE AGORA"
       },
-      "pricing": {
-        "options_free": {
-          "success": {
-            "success_ingestion": "Your video was ingested successfully!"
-          },
-          "error": {
-            "failes_add": "Failed to add URL."
-          }
-        },
-        "options_paid": {
-          "success": {
-            "success_ingestion": "Your video was ingested successfully!"
-          },
-          "error": {
-            "failes_add": "Failed to add URL."
-          }
-        }
+      "features": {
+        "title": "Todas as funcionalidades que você precisa",
+        "description": "Você experimentará o consumo de vídeos de forma eficiente como nunca antes. Mergulhe no mundo do conhecimento, aumente a produtividade e extraia insights valiosos com facilidade.",
+        "feature_time": { "title": "⏰ Marcação de Tempo", "description": "O Tubly torna fácil assistir a resumos de vídeos! Cada resumo vem com marcas de tempo clicáveis, para que você possa ir direto para partes importantes do vídeo. Sem mais buscas em vídeos longos por momentos-chave. Com o Tubly, está tudo a apenas um clique de distância!" },
+        "feature_openai": { "title": "🧠 Alimentado por ChatGPT & OpenAI", "description": "O Tubly usa ChatGPT e OpenAI para tornar os resumos de vídeos mais inteligentes. Com uma excelente compreensão da linguagem, o Summarify transforma longos vídeos do YouTube em resumos curtos e claros. Nosso aplicativo usa a tecnologia de ponta da OpenAI para oferecer os melhores resumos." },
+        "feature_history": { "title": "📜 Seu Histórico no Tubly: Reviva cada Insight!", "description": "Perdido na vastidão de conteúdo? Quer uma revisão rápida? Com o recurso Histórico de Vídeos do Tubly, cada resumo que você já explorou está organizado de forma prática. Volte no tempo, redescubra esses insights valiosos e nunca perca a noção dos vídeos em que você mergulhou. Seus insights passados, agora a apenas um scroll de distância. Mergulhe novamente, a qualquer momento! 🔄🎥" },
+        "feature_audio": { "title": "🎧 Resumos em Áudio do Tubly: Ouça os Destaques!", "description": "Já desejou poder simplesmente ouvir os principais pontos em vez de ler? O Tubly está aqui para ajudar! Mergulhe em nossos resumos em áudio alimentados por IA e entenda a essência de qualquer vídeo, sem precisar ler. Perfeito para aprendizado em movimento ou quando você só quer relaxar e absorver o conteúdo. Com o Tubly, insights de vídeos estão a apenas um clique de reproduzir. Experimente uma clareza como nunca antes – tudo no poder do som! 🚀🔊" }
+      },
+      "footer": {
+        "home": "Início",
+        "terms": "Termos de Uso"
       }
     }
   }

@@ -3,7 +3,9 @@
 </script>
 
 <svelte:head>
-	<title>Terms of Use</title>
+	<title>
+		{$_('page.terms.title')}
+	</title>
 </svelte:head>
 
 <section class="bg-gray-800 text-gray-100">
