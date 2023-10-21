@@ -5,7 +5,8 @@ import Testemonials from './Testemonials.svelte'
 import Pricing from './Pricing.svelte'
 import FAQ from './FAQ.svelte'
 import Footer from './Footer.svelte'
-import Image from './Image.svelte'
+import SvgLogo from './SvgLogo.svelte'
+import Features from './Features.svelte'
 
 
-export { Header, CTA, Hero, Testemonials, Pricing, FAQ, Footer, Image }
+export { Header, CTA, Hero, Testemonials, Pricing, FAQ, Footer, SvgLogo, Features }

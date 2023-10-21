@@ -1,21 +1,21 @@
-2023-10-02T23:34:36.154Z  +1296ms [debug] Config loaded {"version":"2.26.5","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"go2ai-site","region":"us-east-1","stage":"dev","profile":"go2ai-dev","ssmPrefix":"/sst/go2ai-site/dev/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":222,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1696289674873.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":150}},"bytes":332}}},"paths":{"config":"/home/rev-ocelot/Workspace/js/go2ai-site/sst.config.ts","root":"/home/rev-ocelot/Workspace/js/go2ai-site","out":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst","artifacts":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst/artifacts"}}
-2023-10-02T23:34:36.723Z   +569ms [debug] Using AWS profile go2ai-dev
-2023-10-02T23:34:36.753Z    +30ms [debug] Created AWS client IoTClient
-2023-10-02T23:34:36.753Z     +0ms [debug] Getting IoT endpoint
-2023-10-02T23:34:38.444Z  +1691ms [debug] Using IoT endpoint: a3718e15mkay1e-ats.iot.us-east-1.amazonaws.com
-2023-10-02T23:34:38.445Z     +1ms [debug] Initializing bootstrap context
-2023-10-02T23:34:38.445Z     +0ms [debug] Created AWS client CloudFormationClient
-2023-10-02T23:34:39.282Z   +837ms [debug] Loaded bootstrap status
-2023-10-02T23:34:39.282Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-oq69ramo2kc1"}
-2023-10-02T23:34:39.283Z     +1ms [debug] Created AWS client S3Client
-2023-10-02T23:34:39.318Z    +35ms [debug] Synthesizing stacks...
-2023-10-02T23:34:39.326Z     +8ms [debug] Created AWS client STSClient
-2023-10-02T23:34:40.005Z   +679ms [debug] Using identity Account: 523595891180 User: AROAXT2F7IHWNYVLF2GIJ:daniel-campos
-2023-10-02T23:34:40.007Z     +2ms [debug] Generating types in /home/rev-ocelot/Workspace/js/go2ai-site/.sst/types
-2023-10-02T23:34:40.133Z   +126ms [debug] Running 1 deferred tasks with concurrency: 15
-2023-10-02T23:34:40.294Z   +161ms [debug] 
-2023-10-02T23:34:40.294Z     +0ms [debug] Loading v2 AWS SDK
-2023-10-02T23:34:40.294Z     +0ms [debug] Finished synthesizing
-2023-10-02T23:34:40.306Z    +12ms [debug] IoT connected
-2023-10-02T23:34:41.062Z   +756ms [debug] Fetching metadata for stack dev-go2ai-site-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"1K042J13ZF2ZDGJ4","extendedRequestId":"VES2xCtowRQX9TCYvlzRIpWJRxwKuzBv3C7faNV4tP8eiNytNo+w0wYm4s+1cO2h28bXYuVujyc=","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.go2ai-site/stage.dev/stack.dev-go2ai-site-Site.json","RequestId":"1K042J13ZF2ZDGJ4","HostId":"VES2xCtowRQX9TCYvlzRIpWJRxwKuzBv3C7faNV4tP8eiNytNo+w0wYm4s+1cO2h28bXYuVujyc=","message":"The specified key does not exist."}
-2023-10-02T23:34:41.064Z     +2ms [debug] Created AWS client SSMClient
+2023-10-21T13:03:16.569Z  +1284ms [debug] Config loaded {"version":"2.26.5","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"tubly-site","region":"us-east-1","stage":"dev","profile":"go2ai-dev","ssmPrefix":"/sst/tubly-site/dev/"},"metafile":{"inputs":{"stacks/frontStack.ts":{"bytes":474,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true},{"path":"<runtime>","kind":"import-statement","external":true}],"format":"esm"},"sst.config.ts":{"bytes":222,"imports":[{"path":"stacks/frontStack.ts","kind":"import-statement","original":"./stacks/frontStack"}],"format":"esm"}},"outputs":{".sst.config.1697893395303.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"stacks/frontStack.ts":{"bytesInOutput":48},"sst.config.ts":{"bytesInOutput":125}},"bytes":380}}},"paths":{"config":"/home/rev-ocelot/Workspace/js/go2ai-site/sst.config.ts","root":"/home/rev-ocelot/Workspace/js/go2ai-site","out":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst","artifacts":"/home/rev-ocelot/Workspace/js/go2ai-site/.sst/artifacts"}}
+2023-10-21T13:03:17.140Z   +571ms [debug] Using AWS profile go2ai-dev
+2023-10-21T13:03:17.177Z    +37ms [debug] Created AWS client IoTClient
+2023-10-21T13:03:17.177Z     +0ms [debug] Getting IoT endpoint
+2023-10-21T13:03:19.499Z  +2322ms [debug] Using IoT endpoint: a3718e15mkay1e-ats.iot.us-east-1.amazonaws.com
+2023-10-21T13:03:19.499Z     +0ms [debug] Initializing bootstrap context
+2023-10-21T13:03:19.499Z     +0ms [debug] Created AWS client CloudFormationClient
+2023-10-21T13:03:21.075Z  +1576ms [debug] Loaded bootstrap status
+2023-10-21T13:03:21.076Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-oq69ramo2kc1"}
+2023-10-21T13:03:21.077Z     +2ms [debug] Created AWS client S3Client
+2023-10-21T13:03:21.123Z    +46ms [debug] Synthesizing stacks...
+2023-10-21T13:03:21.129Z     +6ms [debug] Created AWS client STSClient
+2023-10-21T13:03:22.370Z  +1241ms [debug] Using identity Account: 523595891180 User: AROAXT2F7IHWNYVLF2GIJ:daniel-campos
+2023-10-21T13:03:22.374Z     +4ms [debug] Generating types in /home/rev-ocelot/Workspace/js/go2ai-site/.sst/types
+2023-10-21T13:03:22.498Z   +124ms [debug] Running 1 deferred tasks with concurrency: 15
+2023-10-21T13:03:22.630Z   +132ms [debug] 
+2023-10-21T13:03:22.631Z     +1ms [debug] Loading v2 AWS SDK
+2023-10-21T13:03:22.631Z     +0ms [debug] Finished synthesizing
+2023-10-21T13:03:22.643Z    +12ms [debug] IoT connected
+2023-10-21T13:03:23.410Z   +767ms [debug] Created AWS client LambdaClient
+2023-10-21T13:03:24.359Z   +949ms [debug] Failed to assume arn:aws:iam::523595891180:role/dev-tubly-site-SVELTKIT-tublysiteServerFunctionSer-19LAKT37NTLX6. {"name":"AccessDenied","$fault":"client","$metadata":{"httpStatusCode":403,"requestId":"9c743107-f434-445d-8184-adf87a7a37a5","attempts":1,"totalRetryDelay":0},"Type":"Sender","Code":"AccessDenied","message":"User: arn:aws:sts::523595891180:assumed-role/AWSReservedSSO_AdministratorAccess_e8d61013369e0369/daniel-campos is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::523595891180:role/dev-tubly-site-SVELTKIT-tublysiteServerFunctionSer-19LAKT37NTLX6"}

@@ -1,19 +1,14 @@
-import type { SSTConfig } from "sst";
-import { SvelteKitSite } from "sst/constructs";
+import type { SSTConfig } from 'sst'
+import { SVELTKIT } from './stacks/frontStack'
 
 export default {
   config(_input) {
     return {
-      name: "go2ai-site",
-      region: "us-east-1",
-    };
+      name: 'tubly-site',
+      region: 'us-east-1',
+    }
   },
   stacks(app) {
-    app.stack(function Site({ stack }) {
-      const site = new SvelteKitSite(stack, "site");
-      stack.addOutputs({
-        url: site.url,
-      });
-    });
+    app.stack(SVELTKIT)
   },
-} satisfies SSTConfig;
+} satisfies SSTConfig

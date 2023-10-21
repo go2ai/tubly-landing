@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=523595891180:domainName=dev.tubly.app:region=us-east-1": {
+    "Id": "/hostedzone/Z00321112BJBN6BRQGB1M",
+    "Name": "dev.tubly.app."
+  },
+  "hosted-zone:account=951590687560:domainName=ai.tubly.app:region=us-east-1": {
+    "Id": "/hostedzone/Z08018022TRNSXAGSJUGE",
+    "Name": "ai.tubly.app."
+  }
+}

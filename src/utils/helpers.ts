@@ -24,3 +24,7 @@ export function typewriter(node: HTMLElement, { speed = 1 }) {
 
 	return returnObj
 }
+
+export const Links = {
+	"googleStore": 'https://play.google.com/store/apps/details?id=app.tubly'
+}

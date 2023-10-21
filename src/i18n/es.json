@@ -1,0 +1,87 @@
+{
+  "page": {
+    "home": {
+      "head1": "Login now!",
+      "head2": "Assimilate video content in seconds",
+      "head3": "Watch less, learn more. Summarized YouTube videos with the power of AI."
+    },
+    "terms": {
+      "title": "Términos de Uso",
+      "welcome": "Bienvenido a nuestra aplicación. Al usar nuestra aplicación, aceptas estos términos. Por favor, léelos con cuidado.",
+      "usageLimits": {
+        "title": "1. Límites de Uso",
+        "description": "Los usuarios gratuitos pueden resumir hasta tres videos de 4 minutos por día. Los suscriptores ($10/mes) pueden resumir videos más largos (hasta 20 minutos) y recibir resúmenes de audio."
+      },
+      "payments": {
+        "title": "2. Pagos",
+        "description": "Los pagos se procesan de forma segura a través de tarjeta de crédito. La tarifa de suscripción no es reembolsable."
+      },
+      "intellectualProperty": {
+        "title": "3. Propiedad Intelectual",
+        "description": "La funcionalidad de la aplicación puede usar enlaces de YouTube, pero no reclamamos ninguna propiedad sobre el contenido encontrado en esos enlaces."
+      },
+      "changes": {
+        "title": "4. Cambios",
+        "description": "Podemos modificar estos términos en cualquier momento. Es tu responsabilidad revisar los términos periódicamente."
+      },
+      "contact": {
+        "title": "5. Contacto",
+        "description": "Si tienes alguna pregunta, contáctanos en support@yourapp.com."
+      },
+      "dataHandlingAndPrivacy": {
+        "title": "6. Manejo de Datos y Privacidad",
+        "description": "Tu privacidad es importante para nosotros. Por favor, revisa nuestra Política de Privacidad para entender nuestras prácticas."
+      },
+      "liabilityLimitation": {
+        "title": "7. Limitación de Responsabilidad",
+        "description": "En la medida permitida por la ley, no somos responsables por ninguna pérdida indirecta o consecuente."
+      },
+      "governingLawAndJurisdiction": {
+        "title": "8. Ley Aplicable y Jurisdicción",
+        "description": "Estos términos están regidos por las leyes de [tu jurisdicción]. Las disputas serán resueltas en los tribunales de [tu jurisdicción]."
+      },
+      "subscriptionCancellation": {
+        "title": "9. Cancelación de Suscripción",
+        "description": "Puedes cancelar tu suscripción en cualquier momento, pero no se emitirán reembolsos por ninguna parte no utilizada del período de suscripción."
+      },
+      "customerSupport": {
+        "title": "10. Soporte al Cliente",
+        "description": "Para cualquier problema o consulta, contacta a nuestro soporte al cliente en support@yourapp.com."
+      },
+      "termination": {
+        "title": "11. Terminación",
+        "description": "Podemos terminar o suspender tu cuenta de inmediato, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo sin limitación si violas los Términos."
+      }
+    },
+    "components": {
+      "hero": {
+        "title": "To get started, please enter a YouTube video URL below:",
+        "placeholder": "Paste YouTube URL here...",
+        "warning": "Make sure to enter a valid YouTube video URL.",
+        "button": "Add Video"
+      },
+      "cta": {
+        "title": "Settings",
+        "language": "Language"
+      },
+      "pricing": {
+        "options_free": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        },
+        "options_paid": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,31 +1,31 @@
 {
   "version": "34.0.0",
   "artifacts": {
-    "dev-go2ai-site-Site.assets": {
+    "dev-tubly-site-SVELTKIT.assets": {
       "type": "cdk:asset-manifest",
       "properties": {
-        "file": "dev-go2ai-site-Site.assets.json",
+        "file": "dev-tubly-site-SVELTKIT.assets.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
       }
     },
-    "dev-go2ai-site-Site": {
+    "dev-tubly-site-SVELTKIT": {
       "type": "aws:cloudformation:stack",
       "environment": "aws://523595891180/us-east-1",
       "properties": {
-        "templateFile": "dev-go2ai-site-Site.template.json",
+        "templateFile": "dev-tubly-site-SVELTKIT.template.json",
         "tags": {
-          "sst:app": "go2ai-site",
+          "sst:app": "tubly-site",
           "sst:stage": "dev"
         },
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-deploy-role-523595891180-us-east-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-cfn-exec-role-523595891180-us-east-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-523595891180-us-east-1/43e842475ea98c8a3d621f351bee66c826c997db7e6734fe15ca8fee82010c57.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-523595891180-us-east-1/343762dc486b1152ea010b1b954cf5953cab7c9cddc0a2ea15a3065b484a1515.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
-          "dev-go2ai-site-Site.assets"
+          "dev-tubly-site-SVELTKIT.assets"
         ],
         "lookupRole": {
           "arn": "arn:${AWS::Partition}:iam::523595891180:role/cdk-hnb659fds-lookup-role-523595891180-us-east-1",
@@ -34,16 +34,16 @@
         }
       },
       "dependencies": [
-        "dev-go2ai-site-Site.assets"
+        "dev-tubly-site-SVELTKIT.assets"
       ],
       "metadata": {
-        "/dev-go2ai-site-Site": [
+        "/dev-tubly-site-SVELTKIT": [
           {
             "type": "aws:cdk:stack-tags",
             "data": [
               {
                 "Key": "sst:app",
-                "Value": "go2ai-site"
+                "Value": "tubly-site"
               },
               {
                 "Key": "sst:stage",
@@ -52,92 +52,92 @@
             ]
           }
         ],
-        "/dev-go2ai-site-Site/CustomResourceHandler/ServiceRole/Resource": [
+        "/dev-tubly-site-SVELTKIT/CustomResourceHandler/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceHandlerServiceRole41AEC181"
           }
         ],
-        "/dev-go2ai-site-Site/CustomResourceHandler/Resource": [
+        "/dev-tubly-site-SVELTKIT/CustomResourceHandler/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceHandlerE8FB56BA"
           }
         ],
-        "/dev-go2ai-site-Site/site/ServerFunctionRole/Resource": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/ServerFunctionRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteServerFunctionRole1F8F4FAC"
+            "data": "tublysiteServerFunctionRoleDD982EFB"
           }
         ],
-        "/dev-go2ai-site-Site/site/ServerFunction/AssetReplacerPolicy/Resource": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/ServerFunction/AssetReplacerPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteServerFunctionAssetReplacerPolicy304BF125"
+            "data": "tublysiteServerFunctionAssetReplacerPolicy17A8E7B2"
           }
         ],
-        "/dev-go2ai-site-Site/site/ServerFunction/AssetReplacer/Default": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/ServerFunction/AssetReplacer/Default": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteServerFunctionAssetReplacer9A11D516"
+            "data": "tublysiteServerFunctionAssetReplacer91CCC411"
           }
         ],
-        "/dev-go2ai-site-Site/site/ServerFunction/ServerFunction/Resource": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/ServerFunction/ServerFunction/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteServerFunction6DFA6F1B"
+            "data": "tublysiteServerFunctionB866E3A5"
           }
         ],
-        "/dev-go2ai-site-Site/site/ServerFunction/ServerFunction/LogRetention/Resource": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/ServerFunction/ServerFunction/LogRetention/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteServerFunctionLogRetention7123678D"
+            "data": "tublysiteServerFunctionLogRetention06DE2FDB"
           }
         ],
-        "/dev-go2ai-site-Site/site/Parameter_url/Resource": [
+        "/dev-tubly-site-SVELTKIT/tubly-site/Parameter_url/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "siteParameterurl3D1716BC"
+            "data": "tublysiteParameterurl717A37A8"
           }
         ],
-        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/Resource": [
+        "/dev-tubly-site-SVELTKIT/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB"
           }
         ],
-        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/DefaultPolicy/Resource": [
+        "/dev-tubly-site-SVELTKIT/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/DefaultPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB"
           }
         ],
-        "/dev-go2ai-site-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Resource": [
+        "/dev-tubly-site-SVELTKIT/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A"
           }
         ],
-        "/dev-go2ai-site-Site/SSTStackOutputSSTMetadata": [
+        "/dev-tubly-site-SVELTKIT/SSTStackOutputSSTMetadata": [
           {
             "type": "aws:cdk:logicalId",
             "data": "SSTMetadata"
           }
         ],
-        "/dev-go2ai-site-Site/BootstrapVersion": [
+        "/dev-tubly-site-SVELTKIT/BootstrapVersion": [
           {
             "type": "aws:cdk:logicalId",
             "data": "BootstrapVersion"
           }
         ],
-        "/dev-go2ai-site-Site/CheckBootstrapVersion": [
+        "/dev-tubly-site-SVELTKIT/CheckBootstrapVersion": [
           {
             "type": "aws:cdk:logicalId",
             "data": "CheckBootstrapVersion"
           }
         ]
       },
-      "displayName": "dev-go2ai-site-Site"
+      "displayName": "dev-tubly-site-SVELTKIT"
     },
     "Tree": {
       "type": "cdk:tree",

@@ -12,10 +12,14 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "test:integration": "playwright test",
-    "sso": "aws sso login --sso-session=go2ai",
+    "sst:deploy:dev": "sst deploy --profile=go2ai-dev --stage=dev",
+    "deploy:prod": "sst deploy --profile=go2ai-prod --stage=prod",
+    "deploy:dev": "sst deploy --profile=go2ai-dev --stage=dev",
+    "remove:dev": "sst remove --profile=go2ai-dev --stage=dev",
+    "remove:prod": "sst remove --profile=go2ai-prod --stage=prod",
+    "sst:dev": "sst dev",
     "test:unit": "vitest",
-    "sst:deploy": "sst deploy",
-    "sst:dev": "sst dev"
+    "sso": "aws sso login --sso-session=go2ai"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
@@ -46,5 +50,8 @@
     "vite-imagetools": "^5.0.8",
     "vitest": "^0.32.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "svelte-i18n": "^3.7.3"
+  }
 }

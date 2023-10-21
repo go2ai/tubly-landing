@@ -1,0 +1,87 @@
+{
+  "page": {
+    "home": {
+      "head1": "Login now!",
+      "head2": "Assimilate video content in seconds",
+      "head3": "Watch less, learn more. Summarized YouTube videos with the power of AI."
+    },
+    "terms": {
+      "title": "Syarat Penggunaan",
+      "welcome": "Selamat datang di aplikasi kami. Dengan menggunakan aplikasi kami, Anda menyetujui syarat-syarat ini. Harap dibaca dengan saksama.",
+      "usageLimits": {
+        "title": "1. Batasan Penggunaan",
+        "description": "Pengguna gratis dapat merangkum hingga tiga video 4 menit per hari. Pelanggan ($10/bulan) dapat merangkum video lebih panjang (hingga 20 menit) dan menerima rangkuman audio."
+      },
+      "payments": {
+        "title": "2. Pembayaran",
+        "description": "Pembayaran diproses dengan aman melalui kartu kredit. Biaya berlangganan tidak dapat dikembalikan."
+      },
+      "intellectualProperty": {
+        "title": "3. Properti Intelektual",
+        "description": "Fungsionalitas aplikasi dapat menggunakan tautan YouTube, tetapi kami tidak mengklaim kepemilikan atas konten yang ditemukan dalam tautan tersebut."
+      },
+      "changes": {
+        "title": "4. Perubahan",
+        "description": "Kami dapat memodifikasi syarat-syarat ini kapan saja. Adalah tanggung jawab Anda untuk meninjau syarat-syarat ini secara berkala."
+      },
+      "contact": {
+        "title": "5. Kontak",
+        "description": "Jika Anda memiliki pertanyaan, hubungi kami di support@yourapp.com."
+      },
+      "dataHandlingAndPrivacy": {
+        "title": "6. Penanganan Data dan Privasi",
+        "description": "Privasi Anda penting bagi kami. Harap tinjau Kebijakan Privasi kami untuk memahami praktik kami."
+      },
+      "liabilityLimitation": {
+        "title": "7. Batasan Tanggung Jawab",
+        "description": "Sejauh diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian tidak langsung atau konsekuensial."
+      },
+      "governingLawAndJurisdiction": {
+        "title": "8. Hukum yang Berlaku dan Yurisdiksi",
+        "description": "Syarat-syarat ini diatur oleh hukum [yurisdiksi Anda]. Sengketa akan diselesaikan di [pengadilan yurisdiksi Anda]."
+      },
+      "subscriptionCancellation": {
+        "title": "9. Pembatalan Berlangganan",
+        "description": "Anda dapat membatalkan berlangganan Anda kapan saja, tetapi tidak akan ada pengembalian dana untuk bagian yang tidak digunakan dari periode berlangganan."
+      },
+      "customerSupport": {
+        "title": "10. Dukungan Pelanggan",
+        "description": "Untuk masalah atau pertanyaan apa pun, hubungi dukungan pelanggan kami di support@yourapp.com."
+      },
+      "termination": {
+        "title": "11. Pemutusan",
+        "description": "Kami dapat mengakhiri atau menangguhkan akun Anda segera, tanpa pemberitahuan atau tanggung jawab sebelumnya, atas alasan apa pun, termasuk tanpa batasan jika Anda melanggar Syarat."
+      }
+    },
+    "components": {
+      "hero": {
+        "title": "To get started, please enter a YouTube video URL below:",
+        "placeholder": "Paste YouTube URL here...",
+        "warning": "Make sure to enter a valid YouTube video URL.",
+        "button": "Add Video"
+      },
+      "cta": {
+        "title": "Settings",
+        "language": "Language"
+      },
+      "pricing": {
+        "options_free": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        },
+        "options_paid": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "page": {
+    "home": {
+      "head1": "Login now!",
+      "head2": "Assimilate video content in seconds",
+      "head3": "Watch less, learn more. Summarized YouTube videos with the power of AI."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "welcome": "Welcome to our app. By using our app, you agree to these terms. Please read them carefully.",
+      "usageLimits": {
+        "title": "1. Usage Limits",
+        "description": "Free users can summarize up to three 4-minute videos per day. Subscribers ($10/month) can summarize longer videos (up to 20 minutes) and receive audio summaries."
+      },
+      "payments": {
+        "title": "2. Payments",
+        "description": "Payments are processed securely via credit card. The subscription fee is non-refundable."
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "description": "The app's functionality may use YouTube links, but we do not claim any ownership over the content found in those links."
+      },
+      "changes": {
+        "title": "4. Changes",
+        "description": "We may modify these terms at any time. It's your responsibility to review the terms periodically."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "description": "If you have any questions, contact us at support@yourapp.com."
+      },
+      "dataHandlingAndPrivacy": {
+        "title": "6. Data Handling and Privacy",
+        "description": "Your privacy is important to us. Please review our Privacy Policy to understand our practices."
+      },
+      "liabilityLimitation": {
+        "title": "7. Liability Limitation",
+        "description": "To the extent permitted by law, we're not liable for any indirect or consequential losses."
+      },
+      "governingLawAndJurisdiction": {
+        "title": "8. Governing Law and Jurisdiction",
+        "description": "These terms are governed by the laws of [your jurisdiction]. Disputes will be resolved in [your jurisdiction's courts]."
+      },
+      "subscriptionCancellation": {
+        "title": "9. Subscription Cancellation",
+        "description": "You can cancel your subscription at any time, but no refunds will be issued for any unused portion of the subscription term."
+      },
+      "customerSupport": {
+        "title": "10. Customer Support",
+        "description": "For any issues or inquiries, contact our customer support at support@yourapp.com."
+      },
+      "termination": {
+        "title": "11. Termination",
+        "description": "We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+      }
+    },
+    "components": {
+      "hero": {
+        "title": "To get started, please enter a YouTube video URL below:",
+        "placeholder": "Paste YouTube URL here...",
+        "warning": "Make sure to enter a valid YouTube video URL.",
+        "button": "Add Video"
+      },
+      "cta": {
+        "title": "Settings",
+        "language": "Language"
+      },
+      "pricing": {
+        "options_free": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        },
+        "options_paid": {
+          "success": {
+            "success_ingestion": "Your video was ingested successfully!"
+          },
+          "error": {
+            "failes_add": "Failed to add URL."
+          }
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
   })
 </script>
 
-<section class="dark:dark:bg-gray-800 dark:dark:text-gray-100">
+<section class="dark:bg-gray-800 dark:text-gray-100">
 	<div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
 		<p class="p-2 text-sm font-medium tracki text-center uppercase">How it works</p>
 		<h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Frequently Asked Questions</h2>

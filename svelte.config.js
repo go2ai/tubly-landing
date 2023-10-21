@@ -17,7 +17,7 @@ const config = {
 			webSocket: './src/webSocket',
 			types: './src/types',
 			services: './src/services',
-			locale: './src/locale',
+			i18n: './src/i18n',
 		},
   },
 };
