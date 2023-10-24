@@ -7,6 +7,10 @@ const databaseId = '16d2eda8a46a452f96f7194a2b288df3'
 
 const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
 
+const database = await notion.databases.retrieve({ database_id: databaseId });
+console.log('DATABASE PROPERTIES', database);
+
+
 console.log(hash)
 console.log(date)
 console.log(taskUrl)
