@@ -1,0 +1,24 @@
+name: Update Notion Table
+on:
+  push:
+    branches:
+      - master
+jobs:
+  update-notion:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4.1.1
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4.0.0
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Notion update script
+      run: node notion-integration.js
+      env:
+        NOTION_TOKEN: ${{ secrets.NOTION_INTEGRATION_TOKEN }}
