@@ -1,4 +1,5 @@
-name: Update Notion Table
+name: Update Notion Deploys Data
+
 on:
   push:
     branches:

@@ -1,6 +1,5 @@
 const { Client } = require('@notionhq/client')
 
-// Initialize a new Notion Client
 const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
 const databaseId = '6c72fc98e4df4d12aa3e32e7c711f48b'
