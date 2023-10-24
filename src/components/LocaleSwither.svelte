@@ -9,7 +9,7 @@
 </script>
 
 <details bind:this={dropdownElement} class="dropdown">
-  <summary class="m-1 btn">{$locale}</summary>
+  <summary class="m-2 btn">{$locale}</summary>
   <ul class="p-2 shadow menu dropdown-content z-[12] bg-base-100 rounded-box w-15">
     {#each $locales as loc}
       <li>
