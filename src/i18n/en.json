@@ -74,6 +74,7 @@
       },
       "features": {
         "title": "All the features you need",
+        "subtitle": "Understand video contents in seconds",
         "description": "You'll experience efficient video consumption like never before. Dive into the world of knowledge, boost productivity, and extract valuable insights with ease.",
         "feature_time": { "title": "⏰ Time Stamps", "description": "Tubly makes watching video summaries easy! Every summary comes with clickable timestamps, so you can jump straight to important parts in the video. No more searching long videos for key moments. With Tubly, it's all just one click away!" },
         "feature_openai": { "title": "🧠 Powered By ChatGPT & OpenAI", "description": "Tubly uses ChatGPT and OpenAI to make video summaries smarter. With top-notch language understanding, Summarify turns long YouTube videos into short, clear summaries. Our app uses OpenAI's cutting-edge tech to give you the best summaries out there." },

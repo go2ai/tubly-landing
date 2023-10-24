@@ -74,6 +74,7 @@
       },
       "features": {
         "title": "Todas as funcionalidades que você precisa",
+        "subtitle": "Entenda o conteúdo de vídeos em segundos",
         "description": "Você experimentará o consumo de vídeos de forma eficiente como nunca antes. Mergulhe no mundo do conhecimento, aumente a produtividade e extraia insights valiosos com facilidade.",
         "feature_time": { "title": "⏰ Marcação de Tempo", "description": "O Tubly torna fácil assistir a resumos de vídeos! Cada resumo vem com marcas de tempo clicáveis, para que você possa ir direto para partes importantes do vídeo. Sem mais buscas em vídeos longos por momentos-chave. Com o Tubly, está tudo a apenas um clique de distância!" },
         "feature_openai": { "title": "🧠 Alimentado por ChatGPT & OpenAI", "description": "O Tubly usa ChatGPT e OpenAI para tornar os resumos de vídeos mais inteligentes. Com uma excelente compreensão da linguagem, o Summarify transforma longos vídeos do YouTube em resumos curtos e claros. Nosso aplicativo usa a tecnologia de ponta da OpenAI para oferecer os melhores resumos." },

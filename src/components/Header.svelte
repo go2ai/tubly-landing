@@ -13,12 +13,12 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content="{$_('page.header.title')}">
 	<meta property="og:description" content="{$_('page.header.description')}">
-	<meta property="og:image" content="https://dev.tubly.app/play.png">
+	<meta property="og:image" content="https://dev.tubly.app/tubly.png">
 	<meta property="og:url" content="https://dev.tubly.app">
 	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="{$_('page.header.title')}">
 	<meta name="twitter:description" content="{$_('page.header.description')}">
-	<meta name="twitter:image" content="https://dev.tubly.app/play.png">
+	<meta name="twitter:image" content="https://dev.tubly.app/tubly.png">
 	<meta name="twitter:card" content="summary_large_image">
 </svelte:head>
 
