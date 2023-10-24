@@ -5,7 +5,9 @@ const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
 const databaseId = '6c72fc98e4df4d12aa3e32e7c711f48b'
 
-async function addRow(deployData) {
+const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
+
+async function addRow() {
   try {
     await notion.pages.create({
       parent: { id: databaseId },
@@ -14,24 +16,24 @@ async function addRow(deployData) {
           title: [
             {
               text: {
-                content: deployData.hash,
+                content: hash,
               },
             },
           ],
         },
         'Data': {
           date: {
-            start: deployData.date,
+            start: date,
           },
         },
         'Tarefa': {
-          url: deployData.taskUrl,
+          url: taskUrl,
         },
         'Projeto': {
           rich_text: [
             {
               text: {
-                content: deployData.project,
+                content: project,
               },
             },
           ],
@@ -40,22 +42,22 @@ async function addRow(deployData) {
           rich_text: [
             {
               text: {
-                content: deployData.responsible,
+                content: responsible,
               },
             },
           ],
         },
         'Auto-Scaling': {
-          checkbox: deployData.autoScaling,
+          checkbox: false,
         },
         'Sucesso': {
-          checkbox: deployData.success,
+          checkbox: true,
         },
         'Motivo do Rollback': {
           rich_text: [
             {
               text: {
-                content: deployData.rollbackReason,
+                content: 'N/A',
               },
             },
           ],
@@ -64,7 +66,7 @@ async function addRow(deployData) {
           rich_text: [
             {
               text: {
-                content: deployData.observation,
+                content: 'N/A',
               },
             },
           ],
@@ -75,19 +77,6 @@ async function addRow(deployData) {
   } catch (error) {
     console.error('Error:', error.body)
   }
-}
-
-// Example deploy data
-const deployData = {
-  hash: 'https://github.com/somosyampi/checkout/commit/8b1e9a1f247080176fce7298b22b630172bbc9c6',
-  date: '2023-10-19T10:59:59',
-  taskUrl: 'https://github.com/somosyampi/checkout/pull/1630',
-  project: 'Checkout',
-  responsible: 'Eitor',
-  autoScaling: false,
-  success: true,
-  rollbackReason: '',
-  observation: ''
 }
 
 // Call the function to add a new row to your Notion table

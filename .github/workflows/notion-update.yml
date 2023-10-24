@@ -19,6 +19,6 @@ jobs:
       run: npm install
 
     - name: Run Notion update script
-      run: node notion-integration.js
+      run: run: node notion-integration.js "${{ github.event.head_commit.url }}" "${{ github.event.head_commit.timestamp }}" "${{ github.event.pull_request.html_url }}" "${{ github.repository }}" "${{ github.actor }}"
       env:
         NOTION_TOKEN: ${{ secrets.NOTION_INTEGRATION_TOKEN }}
