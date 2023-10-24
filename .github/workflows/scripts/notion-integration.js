@@ -11,8 +11,7 @@ console.log(hash)
 console.log(date)
 console.log(taskUrl)
 console.log(project)
-console.log(responsible)
-console.log(responsible)
+console.log(JSON.stringify(responsible))
 
 async function addRow() {
   try {

@@ -20,6 +20,6 @@ jobs:
       run: npm install
 
     - name: Run Notion update script
-      run: node .github/workflows/scripts/notion-integration.js "${{ github.event.head_commit.url }}" "${{ github.event.head_commit.timestamp }}" "${{ github.event.head_commit.url }}" "${{ github.repository }}" "${{ github.event.head_commit.author }}"
+      run: node .github/workflows/scripts/notion-integration.js "${{ github.event.head_commit.url }}" "${{ github.event.head_commit.timestamp }}" "${{ github.ref }}" "${{ github.repository }}" "${{ github.event.head_commit.author }}"
       env:
         NOTION_INTEGRATION_TOKEN: ${{ secrets.NOTION_INTEGRATION_TOKEN }}
