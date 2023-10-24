@@ -1,5 +1,6 @@
 import { Client } from '@notionhq/client'
 
+console.log(process.env.NOTION_INTEGRATION_TOKEN)
 const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
 const databaseId = '6c72fc98e4df4d12aa3e32e7c711f48b'
@@ -10,6 +11,7 @@ console.log(hash)
 console.log(date)
 console.log(taskUrl)
 console.log(project)
+console.log(responsible)
 console.log(responsible)
 
 async function addRow() {
