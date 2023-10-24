@@ -85,4 +85,4 @@ async function addRow() {
 }
 
 // Call the function to add a new row to your Notion table
-addRow(deployData)
+addRow()
