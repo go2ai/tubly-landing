@@ -6,6 +6,12 @@ const databaseId = '6c72fc98e4df4d12aa3e32e7c711f48b'
 
 const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
 
+console.log(hash)
+console.log(date)
+console.log(taskUrl)
+console.log(project)
+console.log(responsible)
+
 async function addRow() {
   try {
     await notion.pages.create({
