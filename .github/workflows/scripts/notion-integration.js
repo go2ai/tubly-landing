@@ -17,7 +17,7 @@ console.log(responsible)
 async function addRow() {
   try {
     await notion.pages.create({
-      parent: { id: databaseId },
+      parent: { database_id: databaseId },
       properties: {
         'hash': {
           title: [
