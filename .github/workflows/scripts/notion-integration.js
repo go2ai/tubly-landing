@@ -3,7 +3,7 @@ import { Client } from '@notionhq/client'
 console.log(process.env.NOTION_INTEGRATION_TOKEN)
 const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
-const databaseId = '6c72fc98e4df4d12aa3e32e7c711f48b'
+const databaseId = '16d2eda8a46a452f96f7194a2b288df3'
 
 const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
 
