@@ -1,6 +1,6 @@
 import { Client } from '@notionhq/client'
 
-console.log(process.env.NOTION_INTEGRATION_TOKEN)
+// console.log(process.env.NOTION_INTEGRATION_TOKEN)
 const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
 const databaseId = '16d2eda8a46a452f96f7194a2b288df3'
@@ -81,7 +81,8 @@ async function addRow() {
           ],
         },
       },
-    });
+    })
+    
     console.log('Row added successfully')
   } catch (error) {
     console.error('Error:', error.body)
