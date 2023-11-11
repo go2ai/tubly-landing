@@ -1,10 +1,17 @@
 import { Client } from '@notionhq/client'
 
 const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
+console.log('🚀 ~ file: notion-integration.mjs:4 ~ notion:', notion)
 
-const databaseId = process.env.CHECKOUT_NOTION_DB_ID
+const databaseId = process.env.SITE_NOTION_DB_ID
+console.log('🚀 ~ file: notion-integration.mjs:6 ~ databaseId:', databaseId)
 
 const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ responsible:', responsible)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ project:', project)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ taskUrl:', taskUrl)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ date:', date)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ hash:', hash)
 
 async function addRow() {
   try {
