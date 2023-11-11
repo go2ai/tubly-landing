@@ -4,7 +4,7 @@ const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 
 const databaseId = process.env.SITE_NOTION_DB_ID
 
-const [hash, date, taskUrl, project, responsible] = process.argv.slice(2)
+const [hash, date, prTitle, project, responsible] = process.argv.slice(2)
 
 async function addRow() {
   try {
@@ -13,7 +13,7 @@ async function addRow() {
       properties: {
         'Hash': { title: [{ text: { content: hash } }] },
         'Data': { date: { start: date } },
-        'Tarefa': { url: taskUrl },
+        'Tarefa': { url: prTitle },
         'Projeto': { rich_text: [{ text: { content: project } }] },
         'Responsável': { rich_text: [{ text: { content: responsible } }] },
         'Auto-Scaling': { checkbox: false },
