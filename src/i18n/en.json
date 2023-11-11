@@ -2,7 +2,7 @@
   "page": {
     "header": {
       "title": "Tubly: Your Youtube Videos Summary Assistant",
-      "description": "Sumamrize Youtube videos with the power of IA. Listen to audio summaries. Keep updated and save time!",
+      "description": "Summarize Youtube videos with the power of IA. Listen to audio summaries. Keep updated and save time!",
       "home": "Home",
       "terms": "Terms of Use"
     },
@@ -63,7 +63,7 @@
         "phone_title_1": "Unlock",
         "phone_title_2": "Youtube",
         "phone_title_3": "summaries",
-        "phone_description": "Watch less, learn more. Youtube videos summariazed with the power of AI!",
+        "phone_description": "Watch less, learn more. Youtube videos summarized with the power of AI!",
         "phone_button_1": "Get Started",
         "phone_button_2": "Learn more"
       },

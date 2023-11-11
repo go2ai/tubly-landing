@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-	import { CTA, Hero, Testemonials, Features } from 'components'
+	import { CTA, Hero, Features } from 'components'
 
 	onMount(() => {
 		const scrollMap = [
@@ -35,7 +35,6 @@
 </div>
 
 <!-- <Testemonials /> -->
-
 
 
 <!-- <Pricing /> -->

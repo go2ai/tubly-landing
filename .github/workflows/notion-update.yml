@@ -1,12 +1,17 @@
-name: Update Notion Deploys Data
+
+name: Update Notion Deploys History
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types:
+      - closed
+
 jobs:
   update-notion:
     runs-on: ubuntu-latest
+    if: >
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.base.ref == 'master'
     steps:
     - name: Checkout code
       uses: actions/checkout@v4.1.1
@@ -20,6 +25,8 @@ jobs:
       run: npm install
 
     - name: Run Notion update script
-      run: node .github/workflows/scripts/notion-integration.js "${{ github.event.head_commit.url }}" "${{ github.event.head_commit.timestamp }}" "${{ github.ref }}" "${{ github.repository }}" "${{ github.event.head_commit.author }}"
+      run: |
+        node .github/workflows/scripts/notion-integration.mjs "${{ github.event.pull_request.merge_commit_sha }}" "${{ github.event.pull_request.merged_at }}" "${{ github.event.pull_request.title }}" "${{ github.repository }}" "${{ github.event.pull_request.user.login }}"
       env:
         NOTION_INTEGRATION_TOKEN: ${{ secrets.NOTION_INTEGRATION_TOKEN }}
+        SITE_NOTION_DB_ID : ${{ secrets.SITE_NOTION_DB_ID }}
