@@ -12,7 +12,6 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "test:integration": "playwright test",
-    "sst:deploy:dev": "sst deploy --profile=go2ai-dev --stage=dev",
     "deploy:prod": "sst deploy --profile=go2ai-prod --stage=prod",
     "deploy:dev": "sst deploy --profile=go2ai-dev --stage=dev",
     "remove:dev": "sst remove --profile=go2ai-dev --stage=dev",

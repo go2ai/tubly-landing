@@ -6,6 +6,7 @@ export default {
     return {
       name: 'tubly-site',
       region: 'us-east-1',
+      profile: _input.profile,
     }
   },
   stacks(app) {
