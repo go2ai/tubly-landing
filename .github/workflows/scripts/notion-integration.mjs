@@ -5,6 +5,7 @@ const notion = new Client({ auth: process.env.NOTION_INTEGRATION_TOKEN })
 const databaseId = process.env.SITE_NOTION_DB_ID
 
 const [hash, date, prTitle, project, responsible] = process.argv.slice(2)
+console.log('🚀 ~ file: notion-integration.mjs:8 ~ responsible:', responsible)
 
 async function addRow() {
   try {
