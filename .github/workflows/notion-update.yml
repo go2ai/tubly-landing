@@ -28,8 +28,7 @@ jobs:
       run: |
         PR_AUTHOR="${{ github.event.pull_request.user.login }}"
         ASSIGNES_JSON="${{ toJson(github.event.pull_request.assignees) }}"
-        echo "Assignees ARRAY: $ASSIGNES_JSON"
-        FIRST_ASSIGNEE=$(echo "$ASSIGNES_JSON" | jq -r '.[0].login')
+        FIRST_ASSIGNEE=$(echo "$ASSIGNES_JSON" | jq -r '.[0].html_url')
         echo "Assignee: $FIRST_ASSIGNEE"
         FIRST_ASSIGNEE_OR_AUTHOR=${FIRST_ASSIGNEE:-$PR_AUTHOR}
         echo "Assignee or Author: $FIRST_ASSIGNEE_OR_AUTHOR"
