@@ -13,7 +13,7 @@
       "welcome": "Bienvenido a nuestra aplicación. Al usar nuestra aplicación, aceptas estos términos. Por favor, léelos con cuidado.",
       "usageLimits": {
         "title": "1. Límites de Uso",
-        "description": "Los usuarios gratuitos pueden resumir hasta tres videos de 4 minutos por día. Los suscriptores (MXN$10/mes) pueden resumir videos más largos (hasta 20 minutos) y recibir resúmenes en audio."
+        "description": "Los usuarios gratuitos pueden resumir hasta 30 minutos de videos por mes. Los créditos mensuales no son acumulativos. Los suscriptores (MXN$50/mes) pueden resumir videos ilimitados y recibir resúmenes en audio."
       },
       "payments": {
         "title": "2. Pagos",
@@ -29,7 +29,7 @@
       },
       "contact": {
         "title": "5. Contacto",
-        "description": "Si tienes alguna pregunta, contáctanos en support@yourapp.com."
+        "description": "Si tienes alguna pregunta, contáctanos en support@mail.tubly.app"
       },
       "dataHandlingAndPrivacy": {
         "title": "6. Manejo de Datos y Privacidad",
@@ -41,7 +41,7 @@
       },
       "governingLawAndJurisdiction": {
         "title": "8. Ley Aplicable y Jurisdicción",
-        "description": "Estos términos están regidos por las leyes de [tu jurisdicción]. Las disputas serán resueltas en los tribunales de [tu jurisdicción]."
+        "description": "Estos términos están regidos por las leyes de Brasil. Las disputas serán resueltas en los tribunales de Brasil."
       },
       "subscriptionCancellation": {
         "title": "9. Cancelación de Suscripción",
@@ -110,9 +110,9 @@
         "paragraph_1": "Presentamos Tubly, tu aplicación Android definitiva para resumen inteligente de videos e insights auditivos. Impulsado por algoritmos de IA de vanguardia, Tubly no solo transforma largos videos de YouTube en visiones claras y amigables para el lector, sino que también te permite escuchar estos resúmenes, gracias a su característica de audio innovadora. Ahora, ya sea en el gimnasio o en el trayecto, puedes seguir tu contenido favorito sin perderte de nada.",
         "paragraph_2": "Envuelve tus sentidos mientras escuchas resúmenes que se adaptan a tu estilo de aprendizaje y ritmo de vida.",
         "paragraph_3": "Eleva tu interacción con los videos a niveles incomparables con Tubly. Sumérgete en una fuente de conocimiento, aumenta tu productividad y recoge valiosos insights, ya sea visual o auditivamente, con absoluta facilidad. ¡Instala Tubly hoy para descubrir un enfoque multifacético de la inteligencia de video simplificada!",
-        "phone_title_1": "Desbloquea",
+        "phone_title_1": "Habilita",
         "phone_title_2": "Resúmenes",
-        "phone_title_3": "de YouTube",
+        "phone_title_3": "en YouTube",
         "phone_description": "Mira menos, aprende más. ¡Videos de YouTube resumidos con el poder de la IA!",
         "phone_button_1": "Comienza Ahora",
         "phone_button_2": "Saber más"
@@ -136,17 +136,19 @@
         },
         "feature_history": {
           "title": "📜 Tu Historial en Tubly: ¡Revive cada Insight!",
-          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento! 🔄🎥"
+          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento!"
         },
         "feature_audio": {
           "title": "🎧 Resúmenes de Audio de Tubly: ¡Escucha los Aspectos más Destacados!",
-          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido! 🚀🔊"
+          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido!"
         }
       },
       "footer": {
         "home": "Inicio",
         "terms": "Términos de Uso",
-        "privacy": "Política de Privacidad"
+        "privacy": "Política de Privacidad",
+        "social": "Síguenos en",
+        "rights": "Todos los derechos reservados"
       }
     }
   }

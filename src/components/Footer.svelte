@@ -40,7 +40,7 @@
 			</div>
 			
 			<div class="space-y-3">
-				<div class="uppercase dark:text-gray-50">Social media</div>
+				<div class="uppercase dark:text-gray-50">{$_('page.components.footer.social')}</div>
 				<div class="flex justify-start space-x-3">
 					<a rel="noopener noreferrer" target="_blank" href="https://twitter.com/TublyApp" title="Twitter" class="flex items-center p-1">
 						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current">
@@ -52,5 +52,5 @@
 		</div>
 	</div>
 
-	<div class="py-6 text-sm text-center dark:text-gray-400">© 2023 Tubly App. All rights reserved.</div>
+	<div class="py-6 text-sm text-center dark:text-gray-400">© 2023 Tubly App. {$_('page.components.footer.rights')}.</div>
 </footer>

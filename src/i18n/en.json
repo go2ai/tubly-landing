@@ -13,7 +13,7 @@
       "welcome": "Welcome to our app. By using our app, you agree to these terms. Please read them carefully.",
       "usageLimits": {
         "title": "1. Usage Limits",
-        "description": "Free users can summarize up to thirty 30-minute videos per month. Subscribers ($10/month) can summarize indefinitely and receive audio summaries."
+        "description": "Free users can summarize up to thirty 30-minute videos per month. The monthly credits are not cumulative. Subscribers ($5/month) can summarize indefinitely and receive audio summaries."
       },
       "payments": {
         "title": "2. Payments",
@@ -29,7 +29,7 @@
       },
       "contact": {
         "title": "5. Contact",
-        "description": "If you have any questions, contact us at support@yourapp.com."
+        "description": "If you have any questions, contact us at support@mail.tubly.app"
       },
       "dataHandlingAndPrivacy": {
         "title": "6. Data Handling and Privacy",
@@ -41,7 +41,7 @@
       },
       "governingLawAndJurisdiction": {
         "title": "8. Governing Law and Jurisdiction",
-        "description": "These terms are governed by the laws of [your jurisdiction]. Disputes will be resolved in [your jurisdiction's courts]."
+        "description": "These terms are governed by the laws of Brazil. Disputes will be resolved in Brazil."
       },
       "subscriptionCancellation": {
         "title": "9. Subscription Cancellation",
@@ -128,13 +128,15 @@
         "description": "You'll experience efficient video consumption like never before. Dive into the world of knowledge, boost productivity, and extract valuable insights with ease.",
         "feature_time": { "title": "⏰ Time Stamps", "description": "Tubly makes watching video summaries easy! Every summary comes with clickable timestamps, so you can jump straight to important parts in the video. No more searching long videos for key moments. With Tubly, it's all just one click away!" },
         "feature_openai": { "title": "🧠 Powered By ChatGPT & OpenAI", "description": "Tubly uses ChatGPT and OpenAI to make video summaries smarter. With top-notch language understanding, Summarify turns long YouTube videos into short, clear summaries. Our app uses OpenAI's cutting-edge tech to give you the best summaries out there." },
-        "feature_history": { "title": "📜 Your Tubly History: Relive Every Insight!", "description": "Lost in the vast sea of content? Want a quick revisit? With Tubly's Video History feature, every summary you've ever explored is neatly listed for your convenience. Go back in time, rediscover those golden insights, and never lose track of the videos you've delved into. Your past insights, now just a scroll away. Dive back in, anytime! 🔄🎥" },
-        "feature_audio": { "title": "🎧 Tubly's Audio Summaries: Hear the Highlights!", "description": "Ever wished you could just listen to the main points instead of reading? Tubly's got you covered! Dive into our AI-powered audio summaries and get the essence of any video, without lifting a finger to read. Perfect for on-the-go learning or when you just want to sit back and soak in the content. With Tubly, video insights are now just a play button away. Experience clarity like never before – all in the power of sound! 🚀🔊" }
+        "feature_history": { "title": "📜 Your Tubly History: Relive Every Insight!", "description": "Lost in the vast sea of content? Want a quick revisit? With Tubly's Video History feature, every summary you've ever explored is neatly listed for your convenience. Go back in time, rediscover those golden insights, and never lose track of the videos you've delved into. Your past insights, now just a scroll away. Dive back in, anytime!" },
+        "feature_audio": { "title": "🎧 Tubly's Audio Summaries: Hear the Highlights!", "description": "Ever wished you could just listen to the main points instead of reading? Tubly's got you covered! Dive into our AI-powered audio summaries and get the essence of any video, without lifting a finger to read. Perfect for on-the-go learning or when you just want to sit back and soak in the content. With Tubly, video insights are now just a play button away. Experience clarity like never before – all in the power of sound!" }
       },
       "footer": {
         "home": "Home",
         "terms": "Terms of Use",
-        "privacy": "Privacy Policy"
+        "privacy": "Privacy Policy",
+        "social": "Social media",
+        "rights": "All rights reserved"
       }
     }
   }
