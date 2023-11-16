@@ -1,8 +1,20 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
 	import { SvgLogo, LocaleSwither } from 'components'
-	import { _ } from 'svelte-i18n'
-	
-	let menuOpen = false
+	import { _, locale } from 'svelte-i18n'
+	import { routes } from 'services/Routing'
+	import { page } from '$app/stores'
+
+  let drawerCheckbox: HTMLInputElement | null = null
+
+  onMount(() => {
+    drawerCheckbox = document.getElementById('my-drawer') as HTMLInputElement
+    console.log('🚀 ~ file: Header.svelte:12 ~ onMount ~ drawerCheckbox:', drawerCheckbox)
+  })
+
+  $: if ($page.url.pathname || $locale) {
+    if (drawerCheckbox && drawerCheckbox.checked) drawerCheckbox.checked = false
+  }
 </script>
 
 <svelte:head>
@@ -39,27 +51,59 @@
 		</a>
 		
 		<!-- Conditionally display the menu based on menuOpen -->
-		<ul class={menuOpen ? 'flex space-x-3' : 'hidden md:flex space-x-3'}>
+		<ul class="items-stretch hidden space-x-3 md:flex">
 			<li class="flex">
-				<a rel="prefetch" href="/" class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">
+				<a rel="prefetch" href="{routes.home()}" class="{($page.route.id === routes.home()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}" >
 					{$_('page.header.home')}
 				</a>
 			</li>
 			<li class="flex">
-				<a rel="prefetch" href="/terms-of-use" class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">
+				<a rel="prefetch" href="{routes.terms()}" class="{($page.route.id === routes.terms()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
 					{$_('page.header.terms')}
+				</a>
+			</li>
+			<li class="flex">
+				<a rel="prefetch" href="{routes.privacy()}" class="{($page.route.id === routes.privacy()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+					{$_('page.header.privacy')}
 				</a>
 			</li>
 			<li class="flex">
 				<LocaleSwither />
 			</li>
 		</ul>
-		
-		<!-- Button to toggle the menu -->
-		<button on:click={() => menuOpen = !menuOpen} class="flex justify-end p-4 md:hidden">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-			</svg>
-		</button>
+
+		<div class="drawer drawer-end flex justify-end p-2 md:hidden z-[12]">
+			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
+			<div class="drawer-content">
+				<!-- Page content here -->
+				<label for="my-drawer" class="drawer-button btn btn-primary">Menu</label>
+			</div> 
+			<div class="drawer-side">
+				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+				<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+					<li>
+						<div>
+							<span>{$_('page.header.language')}:</span>
+							<LocaleSwither />
+						</div>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.home()}" class="{($page.route.id === routes.home()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}" >
+							{$_('page.header.home')}
+						</a>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.terms()}" class="{($page.route.id === routes.terms()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+							{$_('page.header.terms')}
+						</a>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.privacy()}" class="{($page.route.id === routes.privacy()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+							{$_('page.header.privacy')}
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </header>

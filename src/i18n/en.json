@@ -2,16 +2,18 @@
   "page": {
     "header": {
       "title": "Tubly: Your Youtube Videos Summary Assistant",
-      "description": "Summarize Youtube videos with the power of IA. Listen to audio summaries. Keep updated and save time!",
+      "description": "Summarize Youtube videos with the power of IA. Get translated summarizations. Listen to audio summaries. Keep updated and save time!",
       "home": "Home",
-      "terms": "Terms of Use"
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "language": "Language"
     },
     "terms": {
       "title": "Terms of Use",
       "welcome": "Welcome to our app. By using our app, you agree to these terms. Please read them carefully.",
       "usageLimits": {
         "title": "1. Usage Limits",
-        "description": "Free users can summarize up to three 4-minute videos per day. Subscribers ($10/month) can summarize longer videos (up to 20 minutes) and receive audio summaries."
+        "description": "Free users can summarize up to thirty 30-minute videos per month. Subscribers ($10/month) can summarize indefinitely and receive audio summaries."
       },
       "payments": {
         "title": "2. Payments",
@@ -54,6 +56,54 @@
         "description": "We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
       }
     },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "introduction": "Welcome to Tubly! We respect your privacy and are committed to protecting the personal information you share with us. This privacy policy applies to your use of the Tubly app, which offers transcript summarization, audio file creation, translation services, and more.",
+      "infoCollection": {
+        "title": "1. Information Collection and Use",
+        "description": "When you use Tubly, we collect the following information via Google OAuth: - your Google ID, - email address, - name, - profile picture, and locale, to manage your account and provide our services."
+      },
+      "dataStorage": {
+        "title": "2. Data Storage and Security",
+        "description": "Your data is stored securely on AWS servers and is protected with TLS encryption and stringent security policies. We take all reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction."
+      },
+      "dataSharing": {
+        "title": "3. Data Sharing and Disclosure",
+        "description": "We do not share your personal data with third parties, except as required by law or to provide you with services. We use Google Analytics for tracking page views and user sessions, which does not involve processing your personal data."
+      },
+      "userRights": {
+        "title": "4. User Rights and Choices",
+        "description": "You can unsubscribe from our service at any time. You also have the right to access, update, or delete your personal information. Please contact us at privacy@mail.tubly.app for assistance."
+      },
+      "cookies": {
+        "title": "5. Cookies and Tracking Technologies",
+        "description": "Currently, Tubly does not use cookies or similar tracking technologies."
+      },
+      "childrenPrivacy": {
+        "title": "6. Children's Privacy",
+        "description": "Our app is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13."
+      },
+      "internationalTransfers": {
+        "title": "7. International Data Transfers",
+        "description": "Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction."
+      },
+      "policyChanges": {
+        "title": "8. Changes to the Privacy Policy",
+        "description": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Previous versions will be archived for your reference."
+      },
+      "contactInfo": {
+        "title": "9. Contact Information",
+        "description": "If you have any questions about this Privacy Policy, please contact us at privacy@mail.tubly.app."
+      },
+      "governingLaw": {
+        "title": "10. Governing Law and Jurisdiction",
+        "description": "regard to its conflict of law provisions. Any disputes arising from or related to the use of our app will be subject to the exclusive jurisdiction of the courts of Brazil."
+      },
+      "complianceWithLaws": {
+        "title": "11. Compliance with Laws",
+        "description": "We comply with applicable laws, regulations, and guidelines regarding data protection and privacy, including GDPR and CCPA."
+      }
+    },
     "components": {
       "hero": {
         "title": "Effortlessly Digest YouTube Content with AI-Driven Summaries and Audio Playback on Android",
@@ -83,7 +133,8 @@
       },
       "footer": {
         "home": "Home",
-        "terms": "Terms of Use"
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy"
       }
     }
   }

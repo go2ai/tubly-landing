@@ -2,9 +2,11 @@
   "page": {
     "header": {
       "title": "Tubly: Seu assistente de resumo de vídeos do YouTube",
-      "description": "Resuma vídeos do YouTube com o poder da IA. Ouça resumos em áudio. Aprenda mais, em menos tempo.",
+      "description": "Resuma vídeos do YouTube com o poder da IA. Crie resumos traduzidos. Ouça resumos em áudio. Aprenda mais, em menos tempo.",
       "home": "Início",
-      "terms": "Termos de Uso"
+      "terms": "Termos",
+      "privacy": "Privacidade",
+      "language": "Idioma"
     },
     "terms": {
       "title": "Termos de Uso",
@@ -54,6 +56,54 @@
         "description": "Podemos encerrar ou suspender sua conta imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo, sem limitação, se você violar os Termos."
       }
     },
+    "privacyPolicy": {
+      "title": "Política de Privacidade",
+      "introduction": "Bem-vindo ao Tubly! Respeitamos sua privacidade e estamos comprometidos em proteger as informações pessoais que você compartilha conosco. Esta política de privacidade se aplica ao seu uso do aplicativo Tubly, que oferece resumo de transcrições, criação de arquivos de áudio, serviços de tradução e mais.",
+      "infoCollection": {
+        "title": "1. Coleta e Uso de Informações",
+        "description": "Quando você usa o Tubly, coletamos as seguintes informações via Google OAuth: - seu ID do Google, - endereço de e-mail, - nome, - foto de perfil e localidade, para gerenciar sua conta e fornecer nossos serviços."
+      },
+      "dataStorage": {
+        "title": "2. Armazenamento e Segurança de Dados",
+        "description": "Seus dados são armazenados de forma segura em servidores AWS e são protegidos com criptografia TLS e políticas rigorosas de segurança. Tomamos todas as medidas razoáveis para proteger suas informações de acesso não autorizado, divulgação, alteração ou destruição."
+      },
+      "dataSharing": {
+        "title": "3. Compartilhamento e Divulgação de Dados",
+        "description": "Não compartilhamos seus dados pessoais com terceiros, exceto conforme exigido por lei ou para fornecer serviços a você. Usamos o Google Analytics para rastrear visualizações de páginas e sessões de usuários, o que não envolve o processamento de seus dados pessoais."
+      },
+      "userRights": {
+        "title": "4. Direitos e Opções do Usuário",
+        "description": "Você pode cancelar a inscrição em nosso serviço a qualquer momento. Você também tem o direito de acessar, atualizar ou excluir suas informações pessoais. Entre em contato conosco em privacy@mail.tubly.app para assistência."
+      },
+      "cookies": {
+        "title": "5. Cookies e Tecnologias de Rastreamento",
+        "description": "Atualmente, o Tubly não usa cookies ou tecnologias de rastreamento semelhantes."
+      },
+      "childrenPrivacy": {
+        "title": "6. Privacidade Infantil",
+        "description": "Nosso aplicativo não é destinado a usuários menores de 13 anos. Não coletamos conscientemente informações pessoais de crianças menores de 13 anos."
+      },
+      "internationalTransfers": {
+        "title": "7. Transferências Internacionais de Dados",
+        "description": "Suas informações podem ser transferidas e mantidas em computadores localizados fora do seu estado, província, país ou outra jurisdição governamental, onde as leis de proteção de dados podem diferir das de sua jurisdição."
+      },
+      "policyChanges": {
+        "title": "8. Alterações na Política de Privacidade",
+        "description": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações, publicando a nova Política de Privacidade nesta página. Versões anteriores serão arquivadas para sua referência."
+      },
+      "contactInfo": {
+        "title": "9. Informações de Contato",
+        "description": "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em privacy@mail.tubly.app."
+      },
+      "governingLaw": {
+        "title": "10. Lei Aplicável e Jurisdição",
+        "description": "Esta política será regida e interpretada de acordo com as leis do Brasil, sem considerar suas disposições de conflito de leis. Quaisquer disputas decorrentes ou relacionadas ao uso de nosso aplicativo estarão sujeitas à jurisdição exclusiva dos tribunais do Brasil."
+      },
+      "complianceWithLaws": {
+        "title": "11. Conformidade com as Leis",
+        "description": "Cumprimos as leis, regulamentos e diretrizes aplicáveis em relação à proteção de dados e privacidade, incluindo GDPR e CCPA."
+      }
+    },    
     "components": {
       "hero": {
         "title": "Resuma Conteúdos do YouTube com Facilidade com Resumos Orientados por IA e Reprodução de Áudio no Android",
@@ -83,7 +133,8 @@
       },
       "footer": {
         "home": "Início",
-        "terms": "Termos de Uso"
+        "terms": "Termos de Uso",
+        "privacy": "Politica de Privacidade"
       }
     }
   }
