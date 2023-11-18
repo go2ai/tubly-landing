@@ -9,7 +9,6 @@
 
   onMount(() => {
     drawerCheckbox = document.getElementById('my-drawer') as HTMLInputElement
-    console.log('🚀 ~ file: Header.svelte:12 ~ onMount ~ drawerCheckbox:', drawerCheckbox)
   })
 
   $: if ($page.url.pathname || $locale) {
@@ -20,17 +19,17 @@
 <svelte:head>
 	<title>{$_('page.header.title')}</title>
 	<meta name="description" content="{$_('page.header.description')}">
-	<link rel="canonical" href="https://dev.tubly.app">
+	<link rel="canonical" href="https://tubly.app">
 	<meta name="robots" content="index,follow">
 	<!-- Open Graph -->
 	<meta property="og:title" content="{$_('page.header.title')}">
 	<meta property="og:description" content="{$_('page.header.description')}">
-	<meta property="og:image" content="https://dev.tubly.app/tubly.png">
-	<meta property="og:url" content="https://dev.tubly.app">
+	<meta property="og:image" content="https://tubly.app/tubly.png">
+	<meta property="og:url" content="https://tubly.app">
 	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="{$_('page.header.title')}">
 	<meta name="twitter:description" content="{$_('page.header.description')}">
-	<meta name="twitter:image" content="https://dev.tubly.app/tubly.png">
+	<meta name="twitter:image" content="https://tubly.app/tubly.png">
 	<meta name="twitter:card" content="summary_large_image">
 
 	<!-- Google tag (gtag.js) -->

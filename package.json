@@ -1,5 +1,5 @@
 {
-  "name": "go2ai-site",
+  "name": "tubly-site",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -53,6 +53,6 @@
   },
   "type": "module",
   "dependencies": {
-    "svelte-i18n": "^3.7.3"
+    "svelte-i18n": "^3.7.4"
   }
 }

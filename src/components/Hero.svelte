@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-  import { concurrent } from 'svelte-typewriter'
+	import { concurrent } from 'svelte-typewriter'
 	import { _, locale  } from 'svelte-i18n'
 	
 	let showText = true
