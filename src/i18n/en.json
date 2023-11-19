@@ -2,16 +2,18 @@
   "page": {
     "header": {
       "title": "Tubly: Your Youtube Videos Summary Assistant",
-      "description": "Summarize Youtube videos with the power of IA. Listen to audio summaries. Keep updated and save time!",
+      "description": "Summarize Youtube videos with the power of IA. Get translated summarizations. Listen to audio summaries. Keep updated and save time!",
       "home": "Home",
-      "terms": "Terms of Use"
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "language": "Language"
     },
     "terms": {
       "title": "Terms of Use",
       "welcome": "Welcome to our app. By using our app, you agree to these terms. Please read them carefully.",
       "usageLimits": {
         "title": "1. Usage Limits",
-        "description": "Free users can summarize up to three 4-minute videos per day. Subscribers ($10/month) can summarize longer videos (up to 20 minutes) and receive audio summaries."
+        "description": "Free users can summarize up to thirty 30-minute videos per month. The monthly credits are not cumulative. Subscribers ($5/month) can summarize indefinitely and receive audio summaries."
       },
       "payments": {
         "title": "2. Payments",
@@ -27,7 +29,7 @@
       },
       "contact": {
         "title": "5. Contact",
-        "description": "If you have any questions, contact us at support@yourapp.com."
+        "description": "If you have any questions, contact us at support@mail.tubly.app"
       },
       "dataHandlingAndPrivacy": {
         "title": "6. Data Handling and Privacy",
@@ -39,7 +41,7 @@
       },
       "governingLawAndJurisdiction": {
         "title": "8. Governing Law and Jurisdiction",
-        "description": "These terms are governed by the laws of [your jurisdiction]. Disputes will be resolved in [your jurisdiction's courts]."
+        "description": "These terms are governed by the laws of Brazil. Disputes will be resolved in Brazil."
       },
       "subscriptionCancellation": {
         "title": "9. Subscription Cancellation",
@@ -54,12 +56,60 @@
         "description": "We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
       }
     },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "introduction": "Welcome to Tubly! We respect your privacy and are committed to protecting the personal information you share with us. This privacy policy applies to your use of the Tubly app, which offers transcript summarization, audio file creation, translation services, and more.",
+      "infoCollection": {
+        "title": "1. Information Collection and Use",
+        "description": "When you use Tubly, we collect the following information via Google OAuth: - your Google ID, - email address, - name, - profile picture, and locale, to manage your account and provide our services."
+      },
+      "dataStorage": {
+        "title": "2. Data Storage and Security",
+        "description": "Your data is stored securely on AWS servers and is protected with TLS encryption and stringent security policies. We take all reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction."
+      },
+      "dataSharing": {
+        "title": "3. Data Sharing and Disclosure",
+        "description": "We do not share your personal data with third parties, except as required by law or to provide you with services. We use Google Analytics for tracking page views and user sessions, which does not involve processing your personal data."
+      },
+      "userRights": {
+        "title": "4. User Rights and Choices",
+        "description": "You can unsubscribe from our service at any time. You also have the right to access, update, or delete your personal information. Please contact us at privacy@mail.tubly.app for assistance."
+      },
+      "cookies": {
+        "title": "5. Cookies and Tracking Technologies",
+        "description": "Currently, Tubly does not use cookies or similar tracking technologies."
+      },
+      "childrenPrivacy": {
+        "title": "6. Children's Privacy",
+        "description": "Our app is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13."
+      },
+      "internationalTransfers": {
+        "title": "7. International Data Transfers",
+        "description": "Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction."
+      },
+      "policyChanges": {
+        "title": "8. Changes to the Privacy Policy",
+        "description": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Previous versions will be archived for your reference."
+      },
+      "contactInfo": {
+        "title": "9. Contact Information",
+        "description": "If you have any questions about this Privacy Policy, please contact us at privacy@mail.tubly.app."
+      },
+      "governingLaw": {
+        "title": "10. Governing Law and Jurisdiction",
+        "description": "regard to its conflict of law provisions. Any disputes arising from or related to the use of our app will be subject to the exclusive jurisdiction of the courts of Brazil."
+      },
+      "complianceWithLaws": {
+        "title": "11. Compliance with Laws",
+        "description": "We comply with applicable laws, regulations, and guidelines regarding data protection and privacy, including GDPR and CCPA."
+      }
+    },
     "components": {
       "hero": {
-        "title": "Effortlessly Digest YouTube Content with AI-Driven Summaries and Audio Playback on Android",
-        "paragraph_1": "Introducing Tubly, your ultimate Android application for intelligent video summarization and audible insights. Powered by cutting-edge AI algorithms, Tubly not only transforms extensive YouTube videos into crisp, reader-friendly overviews but also allows you to listen to these summaries, thanks to its innovative audio feature. Now, whether you're hitting the gym or commuting, you can effortlessly catch up on your favorite content without missing a beat.",
-        "paragraph_2":"Engage your senses as you listen to summaries that align with your learning style and life pace.",
-        "paragraph_3":"Elevate your video interaction to unparalleled heights with Tubly. Immerse yourself in a wellspring of knowledge, supercharge your productivity, and harvest invaluable insights—visually or audibly—with absolute ease. Install Tubly today to unlock a multifaceted approach to streamlined video intelligence!",
+        "title": "Discover Tubly: AI-Powered Summaries and Audio for YouTube on Android",
+        "paragraph_1": "Experience Tubly, the smart Android app revolutionizing how you consume YouTube content. With advanced AI, Tubly condenses long videos into concise summaries, offering both reading and listening options.",
+        "paragraph_2":"Ideal for busy lifestyles, it lets you stay updated on the go. Immerse in knowledge and boost productivity with Tubly's dual visual and auditory features.",
+        "paragraph_3":"Download now for a smarter, more efficient video experience!",
         "phone_title_1": "Unlock",
         "phone_title_2": "Youtube",
         "phone_title_3": "summaries",
@@ -78,12 +128,15 @@
         "description": "You'll experience efficient video consumption like never before. Dive into the world of knowledge, boost productivity, and extract valuable insights with ease.",
         "feature_time": { "title": "⏰ Time Stamps", "description": "Tubly makes watching video summaries easy! Every summary comes with clickable timestamps, so you can jump straight to important parts in the video. No more searching long videos for key moments. With Tubly, it's all just one click away!" },
         "feature_openai": { "title": "🧠 Powered By ChatGPT & OpenAI", "description": "Tubly uses ChatGPT and OpenAI to make video summaries smarter. With top-notch language understanding, Summarify turns long YouTube videos into short, clear summaries. Our app uses OpenAI's cutting-edge tech to give you the best summaries out there." },
-        "feature_history": { "title": "📜 Your Tubly History: Relive Every Insight!", "description": "Lost in the vast sea of content? Want a quick revisit? With Tubly's Video History feature, every summary you've ever explored is neatly listed for your convenience. Go back in time, rediscover those golden insights, and never lose track of the videos you've delved into. Your past insights, now just a scroll away. Dive back in, anytime! 🔄🎥" },
-        "feature_audio": { "title": "🎧 Tubly's Audio Summaries: Hear the Highlights!", "description": "Ever wished you could just listen to the main points instead of reading? Tubly's got you covered! Dive into our AI-powered audio summaries and get the essence of any video, without lifting a finger to read. Perfect for on-the-go learning or when you just want to sit back and soak in the content. With Tubly, video insights are now just a play button away. Experience clarity like never before – all in the power of sound! 🚀🔊" }
+        "feature_history": { "title": "📜 Your Tubly History: Relive Every Insight!", "description": "Lost in the vast sea of content? Want a quick revisit? With Tubly's Video History feature, every summary you've ever explored is neatly listed for your convenience. Go back in time, rediscover those golden insights, and never lose track of the videos you've delved into. Your past insights, now just a scroll away. Dive back in, anytime!" },
+        "feature_audio": { "title": "🎧 Tubly's Audio Summaries: Hear the Highlights!", "description": "Ever wished you could just listen to the main points instead of reading? Tubly's got you covered! Dive into our AI-powered audio summaries and get the essence of any video, without lifting a finger to read. Perfect for on-the-go learning or when you just want to sit back and soak in the content. With Tubly, video insights are now just a play button away. Experience clarity like never before – all in the power of sound!" }
       },
       "footer": {
         "home": "Home",
-        "terms": "Terms of Use"
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "social": "Social media",
+        "rights": "All rights reserved"
       }
     }
   }

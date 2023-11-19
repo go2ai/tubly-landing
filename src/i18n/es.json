@@ -4,14 +4,16 @@
       "title": "Tubly: Tu asistente para resumir vídeos de YouTube",
       "description": "Resume vídeos de YouTube con el poder de la IA. Escucha resúmenes en audio. Aprende más, en menos tiempo.",
       "home": "Inicio",
-      "terms": "Términos de Uso"
+      "terms": "Términos de Uso",
+      "privacy": "Privacidad",
+      "language": "Idioma"
     },
     "terms": {
       "title": "Términos de Uso",
       "welcome": "Bienvenido a nuestra aplicación. Al usar nuestra aplicación, aceptas estos términos. Por favor, léelos con cuidado.",
       "usageLimits": {
         "title": "1. Límites de Uso",
-        "description": "Los usuarios gratuitos pueden resumir hasta tres videos de 4 minutos por día. Los suscriptores (MXN$10/mes) pueden resumir videos más largos (hasta 20 minutos) y recibir resúmenes en audio."
+        "description": "Los usuarios gratuitos pueden resumir hasta 30 minutos de videos por mes. Los créditos mensuales no son acumulativos. Los suscriptores (MXN$50/mes) pueden resumir videos ilimitados y recibir resúmenes en audio."
       },
       "payments": {
         "title": "2. Pagos",
@@ -27,7 +29,7 @@
       },
       "contact": {
         "title": "5. Contacto",
-        "description": "Si tienes alguna pregunta, contáctanos en support@yourapp.com."
+        "description": "Si tienes alguna pregunta, contáctanos en support@mail.tubly.app"
       },
       "dataHandlingAndPrivacy": {
         "title": "6. Manejo de Datos y Privacidad",
@@ -39,7 +41,7 @@
       },
       "governingLawAndJurisdiction": {
         "title": "8. Ley Aplicable y Jurisdicción",
-        "description": "Estos términos están regidos por las leyes de [tu jurisdicción]. Las disputas serán resueltas en los tribunales de [tu jurisdicción]."
+        "description": "Estos términos están regidos por las leyes de Brasil. Las disputas serán resueltas en los tribunales de Brasil."
       },
       "subscriptionCancellation": {
         "title": "9. Cancelación de Suscripción",
@@ -54,15 +56,63 @@
         "description": "Podemos terminar o suspender tu cuenta inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo, sin limitación, si violas los Términos."
       }
     },
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "introduction": "¡Bienvenido a Tubly! Respetamos tu privacidad y estamos comprometidos a proteger la información personal que compartes con nosotros. Esta política de privacidad se aplica a tu uso de la aplicación Tubly, que ofrece resumen de transcripciones, creación de archivos de audio, servicios de traducción y más.",
+      "infoCollection": {
+        "title": "1. Recolección y Uso de Información",
+        "description": "Cuando usas Tubly, recopilamos la siguiente información a través de Google OAuth: - tu ID de Google, - dirección de correo electrónico, - nombre, - foto de perfil y localidad, para administrar tu cuenta y proporcionar nuestros servicios."
+      },
+      "dataStorage": {
+        "title": "2. Almacenamiento y Seguridad de Datos",
+        "description": "Tus datos se almacenan de manera segura en servidores AWS y están protegidos con cifrado TLS y políticas de seguridad estrictas. Tomamos todas las medidas razonables para proteger tu información de acceso no autorizado, divulgación, alteración o destrucción."
+      },
+      "dataSharing": {
+        "title": "3. Compartir y Divulgar Datos",
+        "description": "No compartimos tus datos personales con terceros, excepto según lo requerido por la ley o para proporcionarte servicios. Utilizamos Google Analytics para rastrear vistas de páginas y sesiones de usuarios, lo cual no implica el procesamiento de tus datos personales."
+      },
+      "userRights": {
+        "title": "4. Derechos y Opciones del Usuario",
+        "description": "Puedes darte de baja de nuestro servicio en cualquier momento. También tienes derecho a acceder, actualizar o eliminar tu información personal. Por favor, contáctanos en privacy@mail.tubly.app para obtener ayuda."
+      },
+      "cookies": {
+        "title": "5. Cookies y Tecnologías de Seguimiento",
+        "description": "Actualmente, Tubly no utiliza cookies ni tecnologías de seguimiento similares."
+      },
+      "childrenPrivacy": {
+        "title": "6. Privacidad de los Niños",
+        "description": "Nuestra aplicación no está destinada a usuarios menores de 13 años. No recopilamos conscientemente información personal de niños menores de 13 años."
+      },
+      "internationalTransfers": {
+        "title": "7. Transferencias Internacionales de Datos",
+        "description": "Tu información puede ser transferida y mantenida en computadoras ubicadas fuera de tu estado, provincia, país u otra jurisdicción gubernamental donde las leyes de protección de datos puedan diferir de las de tu jurisdicción."
+      },
+      "policyChanges": {
+        "title": "8. Cambios en la Política de Privacidad",
+        "description": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Te notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página. Las versiones anteriores estarán archivadas para tu referencia."
+      },
+      "contactInfo": {
+        "title": "9. Información de Contacto",
+        "description": "Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contáctanos en privacy@mail.tubly.app."
+      },
+      "governingLaw": {
+        "title": "10. Ley Aplicable y Jurisdicción",
+        "description": "Esta política se regirá e interpretará de acuerdo con las leyes de Brasil, sin tener en cuenta sus disposiciones de conflicto de leyes. Cualquier disputa que surja o esté relacionada con el uso de nuestra aplicación estará sujeta a la jurisdicción exclusiva de los tribunales de Brasil."
+      },
+      "complianceWithLaws": {
+        "title": "11. Cumplimiento con las Leyes",
+        "description": "Cumplimos con las leyes, regulaciones y directrices aplicables en relación con la protección de datos y privacidad, incluidos el GDPR y el CCPA."
+      }
+    },    
     "components": {
       "hero": {
-        "title": "Resume Contenidos de YouTube con Facilidad con Resúmenes Impulsados por IA y Reproducción de Audio en Android",
-        "paragraph_1": "Presentamos Tubly, tu aplicación Android definitiva para resumen inteligente de videos e insights auditivos. Impulsado por algoritmos de IA de vanguardia, Tubly no solo transforma largos videos de YouTube en visiones claras y amigables para el lector, sino que también te permite escuchar estos resúmenes, gracias a su característica de audio innovadora. Ahora, ya sea en el gimnasio o en el trayecto, puedes seguir tu contenido favorito sin perderte de nada.",
-        "paragraph_2": "Envuelve tus sentidos mientras escuchas resúmenes que se adaptan a tu estilo de aprendizaje y ritmo de vida.",
-        "paragraph_3": "Eleva tu interacción con los videos a niveles incomparables con Tubly. Sumérgete en una fuente de conocimiento, aumenta tu productividad y recoge valiosos insights, ya sea visual o auditivamente, con absoluta facilidad. ¡Instala Tubly hoy para descubrir un enfoque multifacético de la inteligencia de video simplificada!",
-        "phone_title_1": "Desbloquea",
+        "title": "Descubre Tubly: Resúmenes y Audio con Inteligencia Artificial para YouTube en Android",
+        "paragraph_1": "Experimenta Tubly, la aplicación inteligente para Android que está revolucionando la manera en que consumes contenido en YouTube. Con IA avanzada, Tubly condensa videos largos en resúmenes concisos, ofreciendo opciones de lectura y escucha.",
+        "paragraph_2": "Ideal para estilos de vida ocupados, te permite mantenerte actualizado sobre la marcha. Sumérgete en el conocimiento y aumenta tu productividad con las características visuales y auditivas de Tubly.",
+        "paragraph_3": "¡Descárgalo ahora para una experiencia de video más inteligente y eficiente!",
+        "phone_title_1": "Habilita",
         "phone_title_2": "Resúmenes",
-        "phone_title_3": "de YouTube",
+        "phone_title_3": "en YouTube",
         "phone_description": "Mira menos, aprende más. ¡Videos de YouTube resumidos con el poder de la IA!",
         "phone_button_1": "Comienza Ahora",
         "phone_button_2": "Saber más"
@@ -86,16 +136,19 @@
         },
         "feature_history": {
           "title": "📜 Tu Historial en Tubly: ¡Revive cada Insight!",
-          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento! 🔄🎥"
+          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento!"
         },
         "feature_audio": {
           "title": "🎧 Resúmenes de Audio de Tubly: ¡Escucha los Aspectos más Destacados!",
-          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido! 🚀🔊"
+          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido!"
         }
       },
       "footer": {
         "home": "Inicio",
-        "terms": "Términos de Uso"
+        "terms": "Términos de Uso",
+        "privacy": "Política de Privacidad",
+        "social": "Síguenos en",
+        "rights": "Todos los derechos reservados"
       }
     }
   }
