@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-
-<slot />
-
+<section class="bg-gradient-to-b from-custom-gray via-custom-purple to-custom-gray dark:text-gray-100">
+  <slot />
+</section>
 <Footer />

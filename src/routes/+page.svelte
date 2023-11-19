@@ -21,23 +21,21 @@
 	})
 </script>
 
-<section class="bg-gradient-to-b from-custom-gray via-custom-purple to-custom-gray dark:text-gray-100">
 
-	<Hero />
+<Hero />
 
-	<!-- <FAQ /> -->
+<!-- <FAQ /> -->
 
-	<div id="CTA">
-		<CTA />
-	</div>
+<div id="CTA">
+	<CTA />
+</div>
 
-	<div id="Features">
-		<Features />
-	</div>
-
-
-	<!-- <Testemonials /> -->
+<div id="Features">
+	<Features />
+</div>
 
 
-	<!-- <Pricing /> -->
-</section>
+<!-- <Testemonials /> -->
+
+
+<!-- <Pricing /> -->
