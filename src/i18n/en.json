@@ -49,7 +49,7 @@
       },
       "customerSupport": {
         "title": "10. Customer Support",
-        "description": "For any issues or inquiries, contact our customer support at support@yourapp.com."
+        "description": "For any issues or inquiries, contact our customer support at support@mail.tubly.app."
       },
       "termination": {
         "title": "11. Termination",
@@ -125,11 +125,27 @@
       "features": {
         "title": "All the features you need",
         "subtitle": "Understand video contents in seconds",
-        "description": "You'll experience efficient video consumption like never before. Dive into the world of knowledge, boost productivity, and extract valuable insights with ease.",
-        "feature_time": { "title": "⏰ Time Stamps", "description": "Tubly makes watching video summaries easy! Every summary comes with clickable timestamps, so you can jump straight to important parts in the video. No more searching long videos for key moments. With Tubly, it's all just one click away!" },
-        "feature_openai": { "title": "🧠 Powered By ChatGPT & OpenAI", "description": "Tubly uses ChatGPT and OpenAI to make video summaries smarter. With top-notch language understanding, Summarify turns long YouTube videos into short, clear summaries. Our app uses OpenAI's cutting-edge tech to give you the best summaries out there." },
-        "feature_history": { "title": "📜 Your Tubly History: Relive Every Insight!", "description": "Lost in the vast sea of content? Want a quick revisit? With Tubly's Video History feature, every summary you've ever explored is neatly listed for your convenience. Go back in time, rediscover those golden insights, and never lose track of the videos you've delved into. Your past insights, now just a scroll away. Dive back in, anytime!" },
-        "feature_audio": { "title": "🎧 Tubly's Audio Summaries: Hear the Highlights!", "description": "Ever wished you could just listen to the main points instead of reading? Tubly's got you covered! Dive into our AI-powered audio summaries and get the essence of any video, without lifting a finger to read. Perfect for on-the-go learning or when you just want to sit back and soak in the content. With Tubly, video insights are now just a play button away. Experience clarity like never before – all in the power of sound!" }
+        "description": "Maximize your efficiency with Tubly! Access knowledge quickly, improve productivity, and find valuable insights with ease.",
+        "feature_time": {
+          "title": "Time Tagging",
+          "description": "Navigate through videos intelligently with Tubly. Access important parts of videos with a click, using our interactive time stamps."
+        },
+        "feature_openai": {
+            "title": "Powered by ChatGPT & OpenAI",
+            "description": "Tubly utilizes the advanced technology of OpenAI and ChatGPT to transform long YouTube videos into quick and clear summaries."
+        },
+        "feature_history": {
+            "title": "Your History in Tubly",
+            "description": "Revisit your favorite summaries with Tubly History. Easily access past content and never lose the insights you discovered."
+        },
+        "feature_translation": {
+            "title": "Tubly Multilingual Translation",
+            "description": "Discover videos in any language with Tubly. Watch in one language and get summaries and audios in another. Ideal for language learning and easy access to global content."
+        },
+        "feature_audio": {
+            "title": "Tubly Audio Summaries",
+            "description": "Listen to the key points of videos with Tubly's audio summaries. Ideal for mobile learning or for absorbing content while relaxing. Activate with a tap and dive into knowledge."
+        }
       },
       "footer": {
         "home": "Home",

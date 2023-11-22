@@ -49,7 +49,7 @@
       },
       "customerSupport": {
         "title": "10. Soporte al Cliente",
-        "description": "Para cualquier problema o pregunta, contacta a nuestro soporte al cliente en support@yourapp.com."
+        "description": "Para cualquier problema o pregunta, contacta a nuestro soporte al cliente en support@mail.tubly.app."
       },
       "termination": {
         "title": "11. Terminación",
@@ -125,22 +125,26 @@
       "features": {
         "title": "Todas las características que necesitas",
         "subtitle": "Comprende el contenido de los videos en segundos",
-        "description": "Experimentarás el consumo de videos de una manera eficiente como nunca antes. Sumérgete en el mundo del conocimiento, aumenta la productividad y extrae valiosos insights con facilidad.",
+        "description": "¡Maximiza tu eficiencia con Tubly! Accede al conocimiento rápidamente, mejora la productividad y encuentra insights valiosos con facilidad.",
         "feature_time": {
-          "title": "⏰ Marcas de Tiempo",
-          "description": "¡Tubly hace fácil ver resúmenes de videos! Cada resumen viene con marcas de tiempo clicables, así puedes ir directamente a las partes importantes del video. ¡No más buscar en videos largos los momentos clave! Con Tubly, todo está a solo un clic de distancia."
+            "title": "Marcación de Tiempo",
+            "description": "Navega de manera inteligente por los videos con Tubly. Accede a partes importantes de los videos con un clic, utilizando nuestros sellos de tiempo interactivos."
         },
         "feature_openai": {
-          "title": "🧠 Impulsado por ChatGPT & OpenAI",
-          "description": "Tubly utiliza ChatGPT y OpenAI para hacer resúmenes de videos más inteligentes. Con una excelente comprensión del lenguaje, Summarify convierte largos videos de YouTube en resúmenes cortos y claros. Nuestra aplicación utiliza la tecnología avanzada de OpenAI para brindarte los mejores resúmenes."
+            "title": "Impulsado por ChatGPT & OpenAI",
+            "description": "Tubly utiliza la tecnología avanzada de OpenAI y ChatGPT para transformar videos largos de YouTube en resúmenes rápidos y claros."
         },
         "feature_history": {
-          "title": "📜 Tu Historial en Tubly: ¡Revive cada Insight!",
-          "description": "¿Perdido en la inmensidad de contenido? ¿Quieres una revisión rápida? Con la función de Historial de Videos de Tubly, cada resumen que has explorado está organizado de manera conveniente. Regresa en el tiempo, redescubre esos valiosos insights y nunca pierdas la pista de los videos en los que te sumergiste. Tus insights pasados, ahora a solo un desplazamiento de distancia. ¡Redescubre en cualquier momento!"
+            "title": "Tu Historial en Tubly",
+            "description": "Revisa tus resúmenes favoritos con el Historial de Tubly. Accede fácilmente a contenidos pasados y nunca pierdas los insights que descubriste."
+        },
+        "feature_translation": {
+            "title": "Traducción Multilingüe de Tubly",
+            "description": "Descubre videos en cualquier idioma con Tubly. Mira en un idioma y obtén resúmenes y audios en otro. Ideal para el aprendizaje de idiomas y el acceso fácil a contenido global."
         },
         "feature_audio": {
-          "title": "🎧 Resúmenes de Audio de Tubly: ¡Escucha los Aspectos más Destacados!",
-          "description": "¿Alguna vez deseaste poder simplemente escuchar los puntos clave en lugar de leer? ¡Tubly está aquí para ayudar! Sumérgete en nuestros resúmenes de audio impulsados por IA y comprende la esencia de cualquier video sin tener que leer. Perfecto para aprender en movimiento o cuando simplemente quieres relajarte y absorber el contenido. Con Tubly, los insights de los videos están a solo un clic de distancia. ¡Experimenta una claridad como nunca antes, todo en el poder del sonido!"
+            "title": "Resúmenes en Audio de Tubly",
+            "description": "Escucha los puntos clave de los videos con los resúmenes en audio de Tubly. Ideal para el aprendizaje móvil o para absorber contenido relajándose. Activa con un toque e inmérgete en el conocimiento."
         }
       },
       "footer": {

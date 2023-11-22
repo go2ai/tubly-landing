@@ -9,6 +9,7 @@ import SvgLogo from './SvgLogo.svelte'
 import Features from './Features.svelte'
 import LocaleSwither from './LocaleSwither.svelte'
 import Icon from './Icon.svelte'
+import Contact from './Contact.svelte'
 
 export { 
   Header, 
@@ -22,4 +23,5 @@ export {
   Features, 
   LocaleSwither,
   Icon,
+  Contact,
 }
