@@ -2,8 +2,7 @@
 	import { _ } from 'svelte-i18n'
 	import { Icon } from 'components'
 	import { faClock, faBrain, faList, faHeadphones, faLanguage } from '@fortawesome/free-solid-svg-icons'
-
-	const iconSize = '1.4x'
+	import { iconSize } from 'utils/constants'
 </script>
 
 <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
