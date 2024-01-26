@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-	import { CTA, Hero, Features, Contact } from 'components'
+	import { CTA, Hero, Features, Video } from 'components'
 
 	onMount(() => {
 		const scrollMap = [
@@ -23,6 +23,8 @@
 
 
 <Hero />
+
+<!-- <Video videoId="IMcl_Yhhi8I" /> -->
 
 <!-- <FAQ /> -->
 

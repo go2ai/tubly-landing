@@ -10,6 +10,7 @@ import Features from './Features.svelte'
 import LocaleSwither from './LocaleSwither.svelte'
 import Icon from './Icon.svelte'
 import Contact from './Contact.svelte'
+import Video from './Youtube.svelte'
 
 export { 
   Header, 
@@ -24,4 +25,5 @@ export {
   LocaleSwither,
   Icon,
   Contact,
+  Video,
 }
