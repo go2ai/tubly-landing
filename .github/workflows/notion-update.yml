@@ -27,7 +27,7 @@ jobs:
     - name: Run Notion update script
       run: |
         PR_AUTHOR="${{ github.event.pull_request.user.login }}"
-        FIRST_ASSIGNEE=$(echo '${{ toJson(github.event.pull_request.assignees) }}' | jq -r '.[0]?.html_url // empty')
+        FIRST_ASSIGNEE=$(echo '${{ toJson(github.event.pull_request.assignees) }}' | jq -r '.[0]?.login // empty')
         FIRST_ASSIGNEE_OR_AUTHOR=${FIRST_ASSIGNEE:-$PR_AUTHOR}
         echo "Assignee or Author: $FIRST_ASSIGNEE_OR_AUTHOR"
         node .github/workflows/scripts/notion-integration.mjs "${{ github.event.pull_request.merge_commit_sha }}" "${{ github.event.pull_request.merged_at }}" "${{ github.event.pull_request.title }}" "${{ github.repository }}" "$FIRST_ASSIGNEE_OR_AUTHOR"

@@ -1,24 +1,35 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
 	import { SvgLogo, LocaleSwither } from 'components'
-	import { _ } from 'svelte-i18n'
-	
-	let menuOpen = false
+	import { _, locale } from 'svelte-i18n'
+	import { routes } from 'services/Routing'
+	import { page } from '$app/stores'
+
+  let drawerCheckbox: HTMLInputElement | null = null
+
+  onMount(() => {
+    drawerCheckbox = document.getElementById('my-drawer') as HTMLInputElement
+  })
+
+  $: if ($page.url.pathname || $locale) {
+    if (drawerCheckbox && drawerCheckbox.checked) drawerCheckbox.checked = false
+  }
 </script>
 
 <svelte:head>
 	<title>{$_('page.header.title')}</title>
 	<meta name="description" content="{$_('page.header.description')}">
-	<link rel="canonical" href="https://dev.tubly.app">
+	<link rel="canonical" href="https://tubly.app">
 	<meta name="robots" content="index,follow">
 	<!-- Open Graph -->
 	<meta property="og:title" content="{$_('page.header.title')}">
 	<meta property="og:description" content="{$_('page.header.description')}">
-	<meta property="og:image" content="https://dev.tubly.app/tubly.png">
-	<meta property="og:url" content="https://dev.tubly.app">
+	<meta property="og:image" content="https://tubly.app/tubly.png">
+	<meta property="og:url" content="https://tubly.app">
 	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="{$_('page.header.title')}">
 	<meta name="twitter:description" content="{$_('page.header.description')}">
-	<meta name="twitter:image" content="https://dev.tubly.app/tubly.png">
+	<meta name="twitter:image" content="https://tubly.app/tubly.png">
 	<meta name="twitter:card" content="summary_large_image">
 
 	<!-- Google tag (gtag.js) -->
@@ -34,32 +45,65 @@
 
 <header class="p-4 dark:bg-custom-gray dark:text-gray-100">
 	<div class="container flex justify-between h-16 mx-auto">
-		<a rel="noopener noreferrer" href="/" aria-label="Back to homepage" class="flex items-center p-2">
+		<a rel="noopener noreferrer" href="{routes.home()}" aria-label="Back to homepage" class="flex items-center p-2">
 			<SvgLogo />
 		</a>
 		
 		<!-- Conditionally display the menu based on menuOpen -->
-		<ul class={menuOpen ? 'flex space-x-3' : 'hidden md:flex space-x-3'}>
+		<ul class="items-stretch hidden space-x-3 md:flex">
 			<li class="flex">
-				<a rel="prefetch" href="/" class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">
+				<a rel="prefetch" href="{routes.home()}" class="{($page.route.id === routes.home()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}" >
 					{$_('page.header.home')}
 				</a>
 			</li>
 			<li class="flex">
-				<a rel="prefetch" href="/terms-of-use" class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">
+				<a rel="prefetch" href="{routes.terms()}" class="{($page.route.id === routes.terms()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
 					{$_('page.header.terms')}
+				</a>
+			</li>
+			<li class="flex">
+				<a rel="prefetch" href="{routes.privacy()}" class="{($page.route.id === routes.privacy()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+					{$_('page.header.privacy')}
 				</a>
 			</li>
 			<li class="flex">
 				<LocaleSwither />
 			</li>
 		</ul>
-		
-		<!-- Button to toggle the menu -->
-		<button on:click={() => menuOpen = !menuOpen} class="flex justify-end p-4 md:hidden">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-			</svg>
-		</button>
+		<div class="drawer drawer-end flex justify-end p-2 md:hidden z-[12]">
+			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
+			<div class="drawer-content">
+				<label for="my-drawer" aria-label="open sidebar" class="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </label>
+
+			</div> 
+			<div class="drawer-side">
+				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+				<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+					<li>
+						<div>
+							<span>{$_('page.header.language')}:</span>
+							<LocaleSwither />
+						</div>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.home()}" class="{($page.route.id === routes.home()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}" >
+							{$_('page.header.home')}
+						</a>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.terms()}" class="{($page.route.id === routes.terms()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+							{$_('page.header.terms')}
+						</a>
+					</li>
+					<li>
+						<a rel="prefetch" href="{routes.privacy()}" class="{($page.route.id === routes.privacy()) ? 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent underline' : 'flex items-center px-4 -mb-1 border-b-2 dark:border-transparent'}">
+							{$_('page.header.privacy')}
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </header>

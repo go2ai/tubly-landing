@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-	import { CTA, Hero, Features } from 'components'
+	import { CTA, Hero, Features, Video } from 'components'
 
 	onMount(() => {
 		const scrollMap = [
@@ -24,6 +24,8 @@
 
 <Hero />
 
+<!-- <Video videoId="IMcl_Yhhi8I" /> -->
+
 <!-- <FAQ /> -->
 
 <div id="CTA">
@@ -34,7 +36,9 @@
 	<Features />
 </div>
 
+
 <!-- <Testemonials /> -->
+<!-- <Contact /> -->
 
 
 <!-- <Pricing /> -->
