@@ -59,5 +59,5 @@
 		</div>
 	</div>
 
-	<div class="py-6 text-sm text-center dark:text-gray-400">© 2023 Tubly App. {$_('page.components.footer.rights')}.</div>
+	<div class="py-6 text-sm text-center dark:text-gray-400">© 2024 Tubly App. {$_('page.components.footer.rights')}.</div>
 </footer>
