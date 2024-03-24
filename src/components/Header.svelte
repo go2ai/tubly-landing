@@ -44,7 +44,7 @@
 </svelte:head>
 
 <header class="p-4 dark:bg-custom-gray dark:text-gray-100">
-	<div class="container flex justify-between h-16 mx-auto">
+	<div class="container flex justify-between h-16 mx-auto mb-16">
 		<a rel="noopener noreferrer" href="{routes.home()}" aria-label="Back to homepage" class="flex items-center p-2">
 			<SvgLogo />
 		</a>

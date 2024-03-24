@@ -56,6 +56,14 @@
 					</a>
 				</div>
 			</div>
+
+			<div class="space-y-3">
+			</div>
+			<div class="space-y-3">
+				<a href="https://www.toolify.ai/tool/tubly/?ref=embed" target="_blank" style="cursor: pointer;">
+					<img src="https://cdn.toolify.ai/featured_light.svg" style="width: 250px; height: 60px;" width="250" height="60" alt="Tubly Reviews: Details, Pricing, Core features, Use cases, Tubly alternatives | Toolify">
+				</a>
+			</div>
 		</div>
 	</div>
 
